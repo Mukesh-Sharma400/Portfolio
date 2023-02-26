@@ -22,7 +22,7 @@ import java from "../assets/java.jpeg";
 const Skills = () => {
   return (
     <div className="pt-5 mt-5 container container-fluid">
-      <div className="row flex-lg-row-reverse align-items-center g-3">
+      <div className="row flex-lg-row-reverse align-items-center justify-content-center g-3">
         <div className="col-10 col-sm-8 col-lg-6">
           <img
             src={skills}
@@ -60,7 +60,7 @@ const Skills = () => {
             </Link>
           </div>
           <div className="col">
-            <div className="row row-cols-1 row-cols-sm-2 g-4">
+            <div className="row row-cols-2 g-4">
               <div className="col d-flex flex-column gap-2 align-items-center">
                 <div className="d-inline-flex align-items-center rounded-3">
                   <img className="skill--img" src={mongodb} alt="mongodb" />

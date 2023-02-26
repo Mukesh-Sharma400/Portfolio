@@ -35,8 +35,8 @@ const Contact = () => {
 
   return (
     <div className="pt-5 mt-5 container container-fluid col-xxl-8">
-      <div className="row align-items-center g-3 mt-3">
-        <div className="col-10 col-sm-8 col-lg-6">
+      <div className="row align-items-center justify-content-center g-3 mt-3">
+        <div className="col-10 col-sm-8 col-lg-6 mb-4">
           <h1 className="text-center mb-5 pb-4">Contact Me</h1>
           <img
             src={contact}
@@ -45,7 +45,7 @@ const Contact = () => {
             loading="lazy"
           />
         </div>
-        <div className="col-lg-6 m-auto">
+        <div className="col-lg-6 m-auto mb-4">
           <Toaster />
           <form
             className="border border-primary border-5 bg-light shadow-lg rounded-5 p-4"
