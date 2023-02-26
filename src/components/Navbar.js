@@ -9,7 +9,7 @@ const Navbar = () => {
           Mukesh Sharma
         </Link>
         <button
-          className="navbar-toggler text-white"
+          className="navbar-toggler text-white bg-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbar"
