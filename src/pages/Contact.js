@@ -53,9 +53,6 @@ const Contact = () => {
             onSubmit={sendEmail}
           >
             <div className="col-12 mb-4">
-              {/* <label htmlFor="inputName" className="form-label">
-                Your Name:
-              </label> */}
               <input
                 type="text"
                 className="form-control"
@@ -66,9 +63,6 @@ const Contact = () => {
               />
             </div>
             <div className="col-12 mb-4">
-              {/* <label htmlFor="inputEmail" className="form-label">
-                Your Email:
-              </label> */}
               <input
                 type="email"
                 className="form-control"
@@ -79,9 +73,6 @@ const Contact = () => {
               />
             </div>
             <div className="mb-4">
-              {/* <label htmlFor="inputMessage" className="form-label">
-                Your Message:
-              </label> */}
               <textarea
                 className="form-control"
                 id="inputMessage"
