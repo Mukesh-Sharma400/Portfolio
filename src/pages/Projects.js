@@ -2,10 +2,78 @@ import React from "react";
 import ecommerce from "../assets/E-Commerce Web App - Thumbnail.jpg";
 import primevideo from "../assets/Prime Video Clone - Mark 2 -  Tumbnail.jpg";
 import netflix from "../assets/Netflix Clone - Mark 2 - Thumbnail.jpg";
+import memories from "../assets/Memories - Thumbnail.jpg";
+import stack from "../assets/Stack-Overflow-Clone-Thumbnail.jpg";
 
 const Projects = () => {
   return (
     <div className="pt-5 mt-5 container container-fluid">
+      <div className="row row-cols-1 row-cols-md-2 g-3 mb-5">
+        <div className="col">
+          <div className="card shadow h-100 rounded-3">
+            <div className="card-header">
+              <h4 className="text-center">Memories</h4>
+            </div>
+            <video
+              src="https://res.cloudinary.com/mksh400/video/upload/v1677522816/Portfolio/Memories_jucigw.mp4"
+              poster={memories}
+              width="100%"
+              controls
+            ></video>
+            <title>Memories</title>
+            <div className="card-body">
+              <h6>Build using -</h6>
+              <p className="card-text">
+                MongoDB, ExpressJS, ReactJS, NodeJS, Google OAuth, Redux, Redux-
+                Thunk, React Hooks, CORS, Context / REST full API and much more.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a
+                href="https://www.linkedin.com/posts/mukesh-sharma400_mongodb-expressjs-reactjs-activity-7014580015912620032-If1s?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" className="btn btn-outline-primary">
+                  View on LinkedIn
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow h-100 rounded-3">
+            <div className="card-header">
+              <h4 className="text-center">Stack Overflow Clone</h4>
+            </div>
+            <video
+              src="https://res.cloudinary.com/mksh400/video/upload/v1677522473/Portfolio/Stack-Overflow-Clone_i8ggps.mp4"
+              poster={stack}
+              width="100%"
+              controls
+            ></video>
+            <title>Stack Overflow Clone</title>
+            <div className="card-body">
+              <h6>Build using -</h6>
+              <p className="card-text">
+                MongoDB, ExpressJS, ReactJS, NodeJS, Axios, Redux, Redux-Thunk,
+                React Hooks, CORS, Context / REST full API and much more.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a
+                href="https://www.linkedin.com/posts/mukesh-sharma400_stack-overflow-clone-web-application-build-activity-7008798443951271936-2tgO?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" className="btn btn-outline-primary">
+                  View on LinkedIn
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5">
         <div className="col">
           <div className="card shadow h-100 rounded-3">
