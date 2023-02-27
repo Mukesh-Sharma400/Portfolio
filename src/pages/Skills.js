@@ -169,6 +169,24 @@ const Skills = () => {
             <p className="card-text text-center text-uppercase">CHAKRA UI</p>
           </div>
         </div>
+        <div
+          className="card shadow-sm mb-4 languages"
+          style={{ width: "8rem" }}
+        >
+          <img src={laravel} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center text-uppercase">LARAVEL</p>
+          </div>
+        </div>
+        <div
+          className="card shadow-sm mb-4 languages"
+          style={{ width: "8rem" }}
+        >
+          <img src={aspnet} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center text-uppercase">ASP.NET</p>
+          </div>
+        </div>
       </div>
       <h2 className="pb-2 border-bottom">Programming Languages</h2>
       <div className="d-flex flex-wrap m-auto justify-content-between py-5">
@@ -221,27 +239,9 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={aspnet} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <p className="card-text text-center text-uppercase">ASP.NET</p>
-          </div>
-        </div>
-        <div
-          className="card shadow-sm mb-4 languages"
-          style={{ width: "8rem" }}
-        >
           <img src={r} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">R</p>
-          </div>
-        </div>
-        <div
-          className="card shadow-sm mb-4 languages"
-          style={{ width: "8rem" }}
-        >
-          <img src={laravel} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <p className="card-text text-center text-uppercase">LARAVEL</p>
           </div>
         </div>
         <div
