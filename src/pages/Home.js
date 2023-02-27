@@ -11,7 +11,7 @@ const Home = () => {
         width="150"
         height="150"
       />
-      <h1 className="display-4 fw-bold text-uppercase text-secondary">
+      <h1 className="display-4 fw-bold text-uppercase text-secondary code">
         {"< "}
         <span className="mongo">M</span>
         <span className="express">E</span>
@@ -20,7 +20,7 @@ const Home = () => {
         <span> STACK DEVELOPER</span>
         {" />"}
       </h1>
-      <div className="col-lg-6 mx-auto">
+      <div className="col-lg-7 mx-auto">
         <p className="lead">
           Solution-driven MERN-Stack Developer with over a year of work
           experience building consumer-focused online products and services.

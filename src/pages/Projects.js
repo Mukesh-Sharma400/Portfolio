@@ -1,4 +1,7 @@
 import React from "react";
+import ecommerce from "../assets/E-Commerce Web App - Thumbnail.jpg";
+import primevideo from "../assets/Prime Video Clone - Mark 2 -  Tumbnail.jpg";
+import netflix from "../assets/Netflix Clone - Mark 2 - Thumbnail.jpg";
 
 const Projects = () => {
   return (
@@ -11,6 +14,7 @@ const Projects = () => {
             </div>
             <video
               src="https://res.cloudinary.com/mksh400/video/upload/v1677433153/Portfolio/E-Commerce_Web_App_vks4xk.mp4"
+              poster={ecommerce}
               width="100%"
               controls
             ></video>
@@ -42,6 +46,7 @@ const Projects = () => {
             </div>
             <video
               src="https://res.cloudinary.com/mksh400/video/upload/v1677433139/Portfolio/Prime_Video_Clone_-_Mark_2_rvaaxv.mp4"
+              poster={primevideo}
               width="100%"
               controls
             ></video>
@@ -70,6 +75,7 @@ const Projects = () => {
             </div>
             <video
               src="https://res.cloudinary.com/mksh400/video/upload/v1677432866/Portfolio/Netflix_Clone_-_Mark_2_v26jzf.mp4"
+              poster={netflix}
               width="100%"
               controls
             ></video>
