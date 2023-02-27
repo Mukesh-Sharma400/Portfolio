@@ -13,11 +13,16 @@ import bootstrap from "../assets/bootstrap.png";
 import tailwind from "../assets/tailwind.png";
 import material from "../assets/material.png";
 import chakra from "../assets/chakra.png";
-import c from "../assets/c.jpg";
+import c from "../assets/c.png";
 import cplus from "../assets/cplus.png";
 import csharp from "../assets/csharp.png";
 import python from "../assets/python.png";
-import java from "../assets/java.jpeg";
+import java from "../assets/java.png";
+import aspnet from "../assets/aspnet.png";
+import r from "../assets/r.png";
+import laravel from "../assets/laravel.png";
+import kotlin from "../assets/kotlin.png";
+import excelvba from "../assets/excelvba.png";
 
 const Skills = () => {
   return (
@@ -47,16 +52,15 @@ const Skills = () => {
         <h2 className="pb-2 border-bottom">Tech Stack</h2>
         <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5 flex-lg-row-reverse">
           <div className="col d-flex flex-column align-items-start gap-2">
-            <h3 className="fw-bold">
-              Left-aligned title explaining these awesome features
-            </h3>
+            <h3 className="fw-bold">What is MERN Stack ?</h3>
             <p className="text-muted">
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
+              MERN stands for MongoDB, Express, React, Node, after the four key
+              technologies that make up the stack. MongoDB — document database.
+              Express(.js) — Node.js web framework. React(.js) — a client-side
+              JavaScript framework.
             </p>
-            <Link to="Home.js" className="btn btn-primary btn-lg">
-              Primary button
+            <Link to="/projects" className="btn btn-primary btn-lg">
+              See Projects Now !
             </Link>
           </div>
           <div className="col">
@@ -217,7 +221,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={tailwind} className="card-img-top" alt="..." />
+          <img src={aspnet} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">ASP.NET</p>
           </div>
@@ -226,7 +230,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={material} className="card-img-top" alt="..." />
+          <img src={r} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">R</p>
           </div>
@@ -235,7 +239,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={chakra} className="card-img-top" alt="..." />
+          <img src={laravel} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">LARAVEL</p>
           </div>
@@ -244,7 +248,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={material} className="card-img-top" alt="..." />
+          <img src={kotlin} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">KOTLIN</p>
           </div>
@@ -253,7 +257,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={chakra} className="card-img-top" alt="..." />
+          <img src={excelvba} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">EXCEL VBA</p>
           </div>

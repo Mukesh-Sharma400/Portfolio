@@ -1,6 +1,6 @@
 import React from "react";
 import nullclass from "../assets/nullclass.png";
-import hasbasoft from "../assets/hasbasoft.jfif";
+import hasbasoft from "../assets/hasbasoft.png";
 import fiver from "../assets/fiver.png";
 
 const Experience = () => {

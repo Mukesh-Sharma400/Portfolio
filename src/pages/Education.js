@@ -1,5 +1,6 @@
 import React from "react";
 import bscit from "../assets/bachelors.png";
+import school from "../assets/school.png";
 
 const Education = () => {
   return (
@@ -16,7 +17,7 @@ const Education = () => {
         <div className="col-lg-6">
           <h1 className="display-4 fw-bold">Bachelor's in IT</h1>
           <h1 className="fw-light">
-            - Sanpada College of Commerce and Technology
+            - Sanpada College of Commerce & Technology
           </h1>
           <p>September 2020 to Present</p>
           <p className="mb-0">Achievements/Tasks:</p>
@@ -51,7 +52,7 @@ const Education = () => {
       <div className="row flex-lg-row-reverse align-items-center g-3">
         <div className="col-10 col-sm-8 col-lg-6">
           <img
-            src={bscit}
+            src={school}
             className="d-block mx-lg-auto img-fluid"
             alt=""
             loading="lazy"
