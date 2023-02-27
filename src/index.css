@@ -28,16 +28,16 @@ body {
   transform: translateY(-15px);
 }
 .mongo {
-  color: #499d4a;
+  color: #52ab4c;
 }
 .express {
-  color: #393939;
+  color: #ffcb71;
 }
 .react {
-  color: #24618f;
+  color: #01d8ff;
 }
 .node {
-  color: #78b743;
+  color: #a0ff7a;
 }
 .navbar {
   background-color: #4c8bf5;

@@ -20,7 +20,7 @@ const Home = () => {
         <span> STACK DEVELOPER</span>
         {" />"}
       </h1>
-      <div className="col-lg-7 mx-auto">
+      <div className="col-lg-8 mx-auto">
         <p className="lead">
           Solution-driven MERN-Stack Developer with over a year of work
           experience building consumer-focused online products and services.
