@@ -32,7 +32,7 @@ const Skills = () => {
           <img
             src={skills}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="skills"
             loading="lazy"
           />
         </div>
@@ -99,7 +99,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={html} className="card-img-top" alt="..." />
+          <img src={html} className="card-img-top" alt="html" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">HTML</p>
           </div>
@@ -108,7 +108,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={css} className="card-img-top" alt="..." />
+          <img src={css} className="card-img-top" alt="css" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">CSS</p>
           </div>
@@ -117,7 +117,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={javascript} className="card-img-top" alt="..." />
+          <img src={javascript} className="card-img-top" alt="javascript" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">JAVASCRIPT</p>
           </div>
@@ -126,7 +126,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={sass} className="card-img-top" alt="..." />
+          <img src={sass} className="card-img-top" alt="sass" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">SASS</p>
           </div>
@@ -135,7 +135,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={bootstrap} className="card-img-top" alt="..." />
+          <img src={bootstrap} className="card-img-top" alt="bootstrap" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">
               BOOTSTRAP CSS
@@ -146,7 +146,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={tailwind} className="card-img-top" alt="..." />
+          <img src={tailwind} className="card-img-top" alt="tailwind" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">TAILWIND CSS</p>
           </div>
@@ -155,7 +155,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={material} className="card-img-top" alt="..." />
+          <img src={material} className="card-img-top" alt="material" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">MATERIAL UI</p>
           </div>
@@ -164,7 +164,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={chakra} className="card-img-top" alt="..." />
+          <img src={chakra} className="card-img-top" alt="chakra" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">CHAKRA UI</p>
           </div>
@@ -173,7 +173,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={laravel} className="card-img-top" alt="..." />
+          <img src={laravel} className="card-img-top" alt="laravel" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">LARAVEL</p>
           </div>
@@ -182,7 +182,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={aspnet} className="card-img-top" alt="..." />
+          <img src={aspnet} className="card-img-top" alt="aspnet" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">ASP.NET</p>
           </div>
@@ -194,7 +194,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={c} className="card-img-top" alt="..." />
+          <img src={c} className="card-img-top" alt="c" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">C</p>
           </div>
@@ -203,7 +203,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={cplus} className="card-img-top" alt="..." />
+          <img src={cplus} className="card-img-top" alt="cplus" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">C++</p>
           </div>
@@ -212,7 +212,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={csharp} className="card-img-top" alt="..." />
+          <img src={csharp} className="card-img-top" alt="csharp" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">C#</p>
           </div>
@@ -221,7 +221,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={python} className="card-img-top" alt="..." />
+          <img src={python} className="card-img-top" alt="python" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">PYTHON</p>
           </div>
@@ -230,7 +230,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={java} className="card-img-top" alt="..." />
+          <img src={java} className="card-img-top" alt="java" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">JAVA</p>
           </div>
@@ -239,7 +239,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={r} className="card-img-top" alt="..." />
+          <img src={r} className="card-img-top" alt="r" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">R</p>
           </div>
@@ -248,7 +248,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={kotlin} className="card-img-top" alt="..." />
+          <img src={kotlin} className="card-img-top" alt="kotlin" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">KOTLIN</p>
           </div>
@@ -257,7 +257,7 @@ const Skills = () => {
           className="card shadow-sm mb-4 languages"
           style={{ width: "8rem" }}
         >
-          <img src={excelvba} className="card-img-top" alt="..." />
+          <img src={excelvba} className="card-img-top" alt="excelvba" />
           <div className="card-body">
             <p className="card-text text-center text-uppercase">EXCEL VBA</p>
           </div>

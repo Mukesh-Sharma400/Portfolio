@@ -41,7 +41,7 @@ const Contact = () => {
           <img
             src={contact}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="contact"
             loading="lazy"
           />
         </div>

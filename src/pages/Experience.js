@@ -11,7 +11,7 @@ const Experience = () => {
           <img
             src={nullclass}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="nullclass"
             loading="lazy"
           />
         </div>
@@ -32,7 +32,7 @@ const Experience = () => {
           <img
             src={hasbasoft}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="hasbasoft"
             loading="lazy"
           />
         </div>
@@ -52,7 +52,7 @@ const Experience = () => {
           <img
             src={fiver}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="fiver"
             loading="lazy"
           />
         </div>

@@ -10,7 +10,7 @@ const Education = () => {
           <img
             src={bscit}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="bscit"
             loading="lazy"
           />
         </div>
@@ -33,7 +33,7 @@ const Education = () => {
           <img
             src={bscit}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="hsc"
             loading="lazy"
           />
         </div>
@@ -54,7 +54,7 @@ const Education = () => {
           <img
             src={school}
             className="d-block mx-lg-auto img-fluid"
-            alt=""
+            alt="school"
             loading="lazy"
           />
         </div>
