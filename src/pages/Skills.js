@@ -67,25 +67,25 @@ const Skills = () => {
             <div className="row row-cols-2 g-4">
               <div className="col d-flex flex-column gap-2 align-items-center">
                 <div className="d-inline-flex align-items-center rounded-3">
-                  <img className="skill--img" src={mongodb} alt="mongodb" />
+                  <img src={mongodb} alt="mongodb" />
                 </div>
                 <h4 className="fw-semibold mb-0">MongoDB</h4>
               </div>
               <div className="col d-flex flex-column gap-2 align-items-center">
                 <div className="d-inline-flex align-items-center rounded-3">
-                  <img className="skill--img" src={expressjs} alt="expressjs" />
+                  <img src={expressjs} alt="expressjs" />
                 </div>
                 <h4 className="fw-semibold mb-0">ExpressJS</h4>
               </div>
               <div className="col d-flex flex-column gap-2 align-items-center">
                 <div className="d-inline-flex align-items-center rounded-3">
-                  <img className="skill--img" src={reactjs} alt="reactjs" />
+                  <img src={reactjs} alt="reactjs" />
                 </div>
                 <h4 className="fw-semibold mb-0">ReactJS</h4>
               </div>
               <div className="col d-flex flex-column gap-2 align-items-center">
                 <div className="d-inline-flex align-items-center rounded-3">
-                  <img className="skill--img" src={nodejs} alt="nodejs" />
+                  <img src={nodejs} alt="nodejs" />
                 </div>
                 <h4 className="fw-semibold mb-0">NodeJS</h4>
               </div>

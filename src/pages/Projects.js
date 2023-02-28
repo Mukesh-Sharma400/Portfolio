@@ -4,11 +4,46 @@ import primevideo from "../assets/Prime Video Clone - Mark 2 -  Tumbnail.jpg";
 import netflix from "../assets/Netflix Clone - Mark 2 - Thumbnail.jpg";
 import memories from "../assets/Memories - Thumbnail.jpg";
 import stack from "../assets/Stack-Overflow-Clone-Thumbnail.jpg";
+import social from "../assets/SocialNetwork - Functionalities Mark 2 - Thumbnail.jpg";
 
 const Projects = () => {
   return (
     <div className="pt-5 mt-5 container container-fluid">
       <h2 className="pb-2 border-bottom">Top Applications</h2>
+      <div className="row row-cols-1 mb-5">
+        <div className="col">
+          <div className="card shadow h-100 rounded-3 top--project mx-auto">
+            <div className="card-header">
+              <h4 className="text-center">SocialNetwork</h4>
+            </div>
+            <video
+              src="https://res.cloudinary.com/mksh400/video/upload/v1677522935/Portfolio/SocialNetwork_-_Functionalities_-_Mark_2_ilzcad.mp4"
+              poster={social}
+              width="100%"
+              controls
+            ></video>
+            <title>SocialNetwork</title>
+            <div className="card-body">
+              <h6>Build using -</h6>
+              <p className="card-text">
+                MongoDB, ExpressJS, ReactJS, NodeJS, Cloudinary, SendGrid Email
+                API, React Hooks, CORS, Context / REST full API and much more.
+              </p>
+            </div>
+            <div className="card-footer">
+              <a
+                href="https://www.linkedin.com/posts/mukesh-sharma400_socialnetwork-web-application-functionalities-activity-6992151675167756288-bqsQ?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button type="button" className="btn btn-outline-primary">
+                  View on LinkedIn
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="row row-cols-1 row-cols-md-2 g-3 mb-5">
         <div className="col">
           <div className="card shadow h-100 rounded-3">
