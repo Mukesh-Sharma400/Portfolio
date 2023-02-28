@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import contact from "../assets/contact.svg";
+import map from "../assets/map.png";
 
 const Contact = () => {
   const form = useRef();
@@ -186,8 +187,8 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md img-fluid img-card w-50 d-none d-lg-block">
-            <div id="map"></div>
+          <div className="col-md">
+            <img className="img-fluid rounded-4 shadow" src={map} alt="map" />
           </div>
         </div>
       </div>
