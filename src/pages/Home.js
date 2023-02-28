@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import mern from "../assets/mern.png";
+import maukes from "../assets/maukes.png";
 
 const Home = () => {
   return (
@@ -27,6 +29,42 @@ const Home = () => {
           Designed and developed web apps across multiple APIs, thirdparty
           integrations, and databases.
         </p>
+      </div>
+      <div class="col-xxl-8 px-4 py-5">
+        <div class="row  align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src={maukes}
+              class="d-block mx-lg-auto img-fluid"
+              alt="maukes"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Who is <span className="text-primary">Mukesh</span> ?
+            </h1>
+            <p class="lead text-start">
+              I started coding in 2020 at the age of 19. I learned the MERN
+              Stack in 2022. I show people that they don't have to be a straight
+              A student or a genius to learn to code.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <Link
+                to="/projects"
+                className="btn btn-primary btn-lg px-4 me-md-2"
+              >
+                See Projects Now !
+              </Link>
+              <Link
+                to="/contact"
+                className="btn btn-outline-warning btn-lg px-4 me-md-2"
+              >
+                Contact Me ?
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -18,9 +18,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(154, 154, 154);
 }
-.navbar {
+/* .navbar {
   background-color: #4c8bf5;
-}
+} */
 .nav-link:hover {
   border-bottom: 2px solid white;
   margin-bottom: -2px;
