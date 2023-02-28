@@ -140,7 +140,6 @@ const Contact = () => {
                   <span class="fw-bold">GitHub:</span> Mukesh-Sharma400
                 </a>
               </li>
-
               <li class="list-group-item">
                 <a
                   className="text-decoration-none text-black"

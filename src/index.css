@@ -18,14 +18,12 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(154, 154, 154);
 }
-.skill--img {
-  height: 100px;
+.navbar {
+  background-color: #4c8bf5;
 }
-.languages {
-  transition: transform 0.2s ease-in;
-}
-.languages:hover {
-  transform: translateY(-15px);
+.nav-link:hover {
+  border-bottom: 2px solid white;
+  margin-bottom: -2px;
 }
 .mongo {
   color: #52ab4c;
@@ -39,10 +37,12 @@ body {
 .node {
   color: #a0ff7a;
 }
-.navbar {
-  background-color: #4c8bf5;
+.skill--img {
+  height: 100px;
 }
-.nav-link:hover {
-  border-bottom: 2px solid white;
-  margin-bottom: -2px;
+.languages {
+  transition: transform 0.2s ease-in;
+}
+.languages:hover {
+  transform: translateY(-15px);
 }

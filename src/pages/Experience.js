@@ -74,7 +74,6 @@ const Experience = () => {
           </p>
         </div>
       </div>
-
       <h1 className="mt-5 pb-2 border-bottom text-center text-uppercase display-4 fw-bold">
         Certificates
       </h1>
