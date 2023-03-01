@@ -117,7 +117,7 @@ const Projects = () => {
           </div>
         </div>
         <h2 className="pb-2 border-bottom">Older Projects</h2>
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5 pb-4">
           <div className="col">
             <div className="card shadow h-100 rounded-3">
               <div className="card-header">

@@ -33,7 +33,7 @@ const Home = () => {
             integrations, and databases.
           </p>
         </div>
-        <div className="col-xxl-8 px-4 py-5">
+        <div className="col-xxl-8 px-4 py-5 mx-auto">
           <div className="row align-items-center justify-content-center g-5 pt-5">
             <div className="col-10 col-sm-8 col-lg-6">
               <img
@@ -47,12 +47,12 @@ const Home = () => {
               <h1 className="display-5 fw-bold lh-1 mb-3">
                 Who is <span className="text-primary">Mukesh</span> ?
               </h1>
-              <p className="lead text-start">
+              <p className="lead">
                 I started coding in 2020 at the age of 19. I learned the MERN
                 Stack in 2022. I show people that they don't have to be a
                 straight A student or a genius to learn to code.
               </p>
-              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              <div className="d-grid gap-2 d-md-flex justify-content-center">
                 <Link
                   to="/projects"
                   className="btn btn-primary btn-lg px-4 me-md-2"
