@@ -45,7 +45,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6">
               <h1 className="display-5 fw-bold lh-1 mb-3">
-                Who is <span className="text-primary">Mukesh</span> ?
+                Who is <span className="text-danger">Mukesh</span> ?
               </h1>
               <p className="lead">
                 I started coding in 2020 at the age of 19. I learned the MERN
