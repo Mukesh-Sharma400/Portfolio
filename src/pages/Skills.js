@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import skills from "../assets/skills.svg";
 import mongodb from "../assets/mongodb.png";
 import expressjs from "../assets/expressjs.png";
