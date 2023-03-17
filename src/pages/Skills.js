@@ -44,10 +44,12 @@ const Skills = () => {
               I Create Responsive and Modern Websites
             </h1>
             <p className="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              These websites are built with flexible layouts and use modern
+              design elements and technologies, such as HTML5, CSS3, and
+              JavaScript. Responsive websites automatically adjust their layout
+              and content based on the device screen size, ensuring that the
+              website looks and functions well on any device. This enhances the
+              user experience and improves website accessibility.
             </p>
           </div>
         </div>
@@ -57,14 +59,41 @@ const Skills = () => {
             <div className="col d-flex flex-column align-items-start gap-2">
               <h3 className="fw-bold">What is MERN Stack ?</h3>
               <p className="text-muted">
-                MERN stands for MongoDB, Express, React, Node, after the four
-                key technologies that make up the stack. MongoDB — document
-                database. Express(.js) — Node.js web framework. React(.js) — a
-                client-side JavaScript framework.
+                MERN stack is a JavaScript-based web development stack that
+                consists of four core technologies: MongoDB, Express.js,
+                React.js, and Node.js.
               </p>
-              <Link to="/projects" className="btn btn-primary btn-lg">
+              <ul className="text-muted">
+                <li>
+                  MongoDB: a NoSQL document database that stores data in
+                  JSON-like documents. It is highly scalable and flexible,
+                  allowing developers to store and retrieve data quickly and
+                  efficiently.
+                </li>
+                <li>
+                  Express.js: a web application framework that runs on Node.js,
+                  providing a simple and flexible way to create robust APIs and
+                  web applications. It provides a set of middleware that
+                  simplifies the handling of requests and responses, making it
+                  easier to build RESTful APIs.
+                </li>
+                <li>
+                  React.js: a front-end library that allows developers to create
+                  dynamic user interfaces using a component-based approach.
+                  React is known for its performance and flexibility, and it is
+                  widely used to build scalable and complex web applications.
+                </li>
+                <li>
+                  Node.js: a JavaScript runtime built on Chrome's V8 engine that
+                  allows developers to run JavaScript code outside of a web
+                  browser. Node.js provides a powerful platform for building
+                  scalable and high-performance web applications, and it is
+                  widely used for server-side programming.
+                </li>
+              </ul>
+              {/* <Link to="/projects" className="btn btn-primary btn-lg">
                 See Projects Now !
-              </Link>
+              </Link> */}
             </div>
             <div className="col">
               <div className="row row-cols-2 g-4">

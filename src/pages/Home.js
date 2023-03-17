@@ -50,7 +50,7 @@ const Home = () => {
               <p className="lead">
                 I started coding in 2020 at the age of 19. I learned the MERN
                 Stack in 2022. I show people that they don't have to be a
-                straight A student or a genius to learn to code.
+                straight 'A' student or a genius to learn to code.
               </p>
               <div className="d-grid gap-2 d-md-flex justify-content-center">
                 <Link
