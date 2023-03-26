@@ -2,6 +2,7 @@ import React from "react";
 import bscit from "../assets/bachelors.png";
 import aptitude from "../assets/Aptitude_Test.png";
 import brainstrom from "../assets/Brain_Storm.png";
+import highschool from "../assets/highschool.jpg";
 import school from "../assets/school.png";
 import Resume from "../components/Resume";
 
@@ -57,7 +58,7 @@ const Education = () => {
         <div className="row align-items-center g-3 border-bottom">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
-              src={bscit}
+              src={highschool}
               className="d-block mx-lg-auto img-fluid"
               alt="hsc"
               loading="lazy"

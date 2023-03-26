@@ -97,7 +97,7 @@ const Contact = () => {
         <div className="py-5">
           <div className="row g-4">
             <div className="col-md">
-              <img className="img-fluid rounded-4 shadow" src={map} alt="map" />
+              <img className="img-fluid rounded-5 shadow" src={map} alt="map" />
             </div>
             <div className="col-md">
               <h1 className="text-center mb-4">Social Info</h1>
