@@ -64,35 +64,35 @@ const Skills = () => {
               </p>
               <ul className="text-muted">
                 <li>
-                  MongoDB: a NoSQL document database that stores data in
-                  JSON-like documents. It is highly scalable and flexible,
-                  allowing developers to store and retrieve data quickly and
-                  efficiently.
+                  <span className="fw-bold">MongoDB:</span> a NoSQL document
+                  database that stores data in JSON-like documents. It is highly
+                  scalable and flexible, allowing developers to store and
+                  retrieve data quickly and efficiently.
                 </li>
                 <li>
-                  Express.js: a web application framework that runs on Node.js,
-                  providing a simple and flexible way to create robust APIs and
-                  web applications. It provides a set of middleware that
-                  simplifies the handling of requests and responses, making it
-                  easier to build RESTful APIs.
+                  <span className="fw-bold">Express.js:</span> a web application
+                  framework that runs on Node.js, providing a simple and
+                  flexible way to create robust APIs and web applications. It
+                  provides a set of middleware that simplifies the handling of
+                  requests and responses, making it easier to build RESTful
+                  APIs.
                 </li>
                 <li>
-                  React.js: a front-end library that allows developers to create
-                  dynamic user interfaces using a component-based approach.
-                  React is known for its performance and flexibility, and it is
-                  widely used to build scalable and complex web applications.
+                  <span className="fw-bold">React.js:</span> a front-end library
+                  that allows developers to create dynamic user interfaces using
+                  a component-based approach. React is known for its performance
+                  and flexibility, and it is widely used to build scalable and
+                  complex web applications.
                 </li>
                 <li>
-                  Node.js: a JavaScript runtime built on Chrome's V8 engine that
-                  allows developers to run JavaScript code outside of a web
-                  browser. Node.js provides a powerful platform for building
-                  scalable and high-performance web applications, and it is
-                  widely used for server-side programming.
+                  <span className="fw-bold">Node.js:</span> a JavaScript runtime
+                  built on Chrome's V8 engine that allows developers to run
+                  JavaScript code outside of a web browser. Node.js provides a
+                  powerful platform for building scalable and high-performance
+                  web applications, and it is widely used for server-side
+                  programming.
                 </li>
               </ul>
-              {/* <Link to="/projects" className="btn btn-primary btn-lg">
-                See Projects Now !
-              </Link> */}
             </div>
             <div className="col">
               <div className="row row-cols-2 g-4">
