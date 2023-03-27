@@ -55,7 +55,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="row align-items-center g-3 border-bottom">
+        <div className="row align-items-center g-3 border-bottom py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
               src={highschool}

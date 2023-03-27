@@ -15,7 +15,7 @@ const Experience = () => {
     <div>
       <Resume />
       <div className="pt-4 mt-5 container container-fluid col-xxl-8">
-        <div className="row flex-lg-row-reverse align-items-center g-3 my-3 border-bottom">
+        <div className="row flex-lg-row-reverse align-items-center g-3 my-3 border-bottom pb-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
               src={nullclass}
@@ -36,7 +36,7 @@ const Experience = () => {
             </p>
           </div>
         </div>
-        <div className="row align-items-center g-3 my-3 border-bottom">
+        <div className="row align-items-center g-3 my-3 border-bottom pb-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
               src={hasbasoft}
@@ -52,7 +52,8 @@ const Experience = () => {
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead">
               In the training period I learned about MERN Stack Technology and
-              build several projects under their guidance.
+              build several projects like E-Commerce Web App and more under
+              their guidance.
             </p>
           </div>
         </div>
@@ -77,7 +78,7 @@ const Experience = () => {
             </p>
           </div>
         </div>
-        <h1 className="mt-5 pb-2 border-bottom text-center text-uppercase display-4 fw-bold">
+        <h1 className="mt-5 pb-2 text-center text-uppercase display-4 fw-bold">
           Certificates
         </h1>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-3">
