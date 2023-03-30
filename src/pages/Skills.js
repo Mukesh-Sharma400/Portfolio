@@ -54,7 +54,7 @@ const Skills = () => {
         </div>
         <div className="py-5">
           <h2 className="pb-2 border-bottom">Tech Stack</h2>
-          <div class="row align-items-md-center py-5">
+          <div class="row align-items-md-center py-5 g-4">
             <div class="col-md-4 d-md-block">
               <div className="row row-cols-2 g-4">
                 <div className="col d-flex flex-column gap-2 align-items-center">
