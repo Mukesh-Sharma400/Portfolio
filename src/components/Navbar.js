@@ -23,10 +23,65 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link text-white" to="/skills">
-                Skills
+                <button
+                  type="button"
+                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar"
+                >
+                  Skills
+                </button>
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link text-white" to="/projects">
+                <button
+                  type="button"
+                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar"
+                >
+                  Projects
+                </button>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white" to="/education">
+                <button
+                  type="button"
+                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar"
+                >
+                  Education
+                </button>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white" to="/experience">
+                <button
+                  type="button"
+                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar"
+                >
+                  Experience
+                </button>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white" to="/contact">
+                <button
+                  type="button"
+                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar"
+                >
+                  Contact
+                </button>
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <Link className="nav-link text-white" to="/projects">
                 Projects
               </Link>
@@ -45,7 +100,7 @@ const Navbar = () => {
               <Link className="nav-link text-white" to="/contact">
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
