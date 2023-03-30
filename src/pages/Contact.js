@@ -22,11 +22,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success("Message Sent Successfully");
+          toast.success("Message Sent Successfully. Thank You for Contacting!");
           setTimeout(() => {
             navigate("/");
           }, 3000);
-          console.log("Message Sent Successfully");
+          console.log("Message Sent Successfully. Thank You for Contacting!");
           e.target.reset();
         },
         (error) => {
