@@ -54,8 +54,36 @@ const Skills = () => {
         </div>
         <div className="py-5">
           <h2 className="pb-2 border-bottom">Tech Stack</h2>
-          <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5 flex-lg-row-reverse">
-            <div className="col d-flex flex-column align-items-start gap-2">
+          <div class="row align-items-md-center py-5">
+            <div class="col-md-4 d-md-block">
+              <div className="row row-cols-2 g-4">
+                <div className="col d-flex flex-column gap-2 align-items-center">
+                  <div className="d-inline-flex align-items-center rounded-3">
+                    <img src={mongodb} alt="mongodb" />
+                  </div>
+                  <h4 className="fw-semibold mb-0">MongoDB</h4>
+                </div>
+                <div className="col d-flex flex-column gap-2 align-items-center">
+                  <div className="d-inline-flex align-items-center rounded-3">
+                    <img src={expressjs} alt="expressjs" />
+                  </div>
+                  <h4 className="fw-semibold mb-0">ExpressJS</h4>
+                </div>
+                <div className="col d-flex flex-column gap-2 align-items-center">
+                  <div className="d-inline-flex align-items-center rounded-3">
+                    <img src={reactjs} alt="reactjs" />
+                  </div>
+                  <h4 className="fw-semibold mb-0">ReactJS</h4>
+                </div>
+                <div className="col d-flex flex-column gap-2 align-items-center">
+                  <div className="d-inline-flex align-items-center rounded-3">
+                    <img src={nodejs} alt="nodejs" />
+                  </div>
+                  <h4 className="fw-semibold mb-0">NodeJS</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
               <h3 className="fw-bold">What is MERN Stack ?</h3>
               <p className="text-muted">
                 MERN stack is a JavaScript-based web development stack that
@@ -93,34 +121,6 @@ const Skills = () => {
                   programming.
                 </li>
               </ul>
-            </div>
-            <div className="col">
-              <div className="row row-cols-2 g-4">
-                <div className="col d-flex flex-column gap-2 align-items-center">
-                  <div className="d-inline-flex align-items-center rounded-3">
-                    <img src={mongodb} alt="mongodb" />
-                  </div>
-                  <h4 className="fw-semibold mb-0">MongoDB</h4>
-                </div>
-                <div className="col d-flex flex-column gap-2 align-items-center">
-                  <div className="d-inline-flex align-items-center rounded-3">
-                    <img src={expressjs} alt="expressjs" />
-                  </div>
-                  <h4 className="fw-semibold mb-0">ExpressJS</h4>
-                </div>
-                <div className="col d-flex flex-column gap-2 align-items-center">
-                  <div className="d-inline-flex align-items-center rounded-3">
-                    <img src={reactjs} alt="reactjs" />
-                  </div>
-                  <h4 className="fw-semibold mb-0">ReactJS</h4>
-                </div>
-                <div className="col d-flex flex-column gap-2 align-items-center">
-                  <div className="d-inline-flex align-items-center rounded-3">
-                    <img src={nodejs} alt="nodejs" />
-                  </div>
-                  <h4 className="fw-semibold mb-0">NodeJS</h4>
-                </div>
-              </div>
             </div>
           </div>
         </div>
