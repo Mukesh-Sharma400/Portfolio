@@ -28,7 +28,7 @@ const Education = () => {
             <p>September 2020 to Present</p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead">
-              During the Bachelor's degree of Information Technology I learned a
+              During my Bachelor's degree in Information Technology I learned a
               lot of things and acquired many skills. I also achieved a
               certificate for the Brain Storm Event and got good score in the
               Aptitude Test.
@@ -67,12 +67,13 @@ const Education = () => {
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold">Higher School Certificates</h1>
             <h1 className="fw-light">- Pace Education Society</h1>
-            <p>June 2016 to May 2018</p>
+            <p>June 2017 to May 2018</p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead">
-              In the freelancing period I Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Fuga aperiam, rerum cumque dolorum unde
-              architecto modi! Facilis, molestiae.
+              During my High School days, I opted for Physics, Chemistry and
+              Maths which increased my interest in Cosmology - The Study of
+              Physics of Outer Space. But I was not able to perform well in my
+              exams and I only scored 50 percent in total.
             </p>
           </div>
         </div>
@@ -88,12 +89,12 @@ const Education = () => {
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold">Secondary School Certificates</h1>
             <h1 className="fw-light">- Tilak International School</h1>
-            <p>June 2008 to March 2016</p>
+            <p>June 2015 to March 2016</p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead">
-              In the freelancing period I Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Fuga aperiam, rerum cumque dolorum unde
-              architecto modi! Facilis, molestiae.
+              During my School days, I was not that of a smart kid but I always
+              wanted had interest in getting to know more about the computer
+              programming. I managed to score 60 percent in the exams.
             </p>
           </div>
         </div>

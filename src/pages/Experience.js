@@ -27,7 +27,10 @@ const Experience = () => {
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold">Project Intern</h1>
             <h1 className="fw-light">- NullClass</h1>
-            <p>December 2022 to January 2023</p>
+            <p>
+              December 2022 to January 2023{" "}
+              <span className="float-end">Online</span>
+            </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead">
               In the internship period I performed several tasks like making a
@@ -48,7 +51,10 @@ const Experience = () => {
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold">MERN Stack Software Trainee</h1>
             <h1 className="fw-light">- Hasbasoft Technology</h1>
-            <p>August 2021 to October 2022</p>
+            <p>
+              August 2021 to October 2022{" "}
+              <span className="float-end">Online</span>
+            </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead">
               In the training period I learned about MERN Stack Technology and
@@ -69,12 +75,13 @@ const Experience = () => {
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold">Freelancer</h1>
             <h1 className="fw-light">- Fiver</h1>
-            <p>May 2018 to Present</p>
+            <p>
+              May 2018 to Present <span className="float-end">Online</span>
+            </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead">
-              In the freelancing period I Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Fuga aperiam, rerum cumque dolorum unde
-              architecto modi! Facilis, molestiae.
+              In the freelancing period I did several tasks / assignments for
+              many clients in the Microsoft Visual Basic (VBA).
             </p>
           </div>
         </div>
