@@ -27,7 +27,7 @@ const Education = () => {
             </h1>
             <p>September 2020 to Present</p>
             <p className="mb-0">Achievements/Tasks:</p>
-            <p className="lead">
+            <p className="lead big--para">
               During my Bachelor's degree in Information Technology I learned a
               lot of things and acquired many skills. I also achieved a
               certificate for the Brain Storm Event and got good score in the
@@ -69,7 +69,7 @@ const Education = () => {
             <h1 className="fw-light">- Pace Education Society</h1>
             <p>June 2017 to May 2018</p>
             <p className="mb-0">Achievements/Tasks:</p>
-            <p className="lead">
+            <p className="lead big--para">
               During my High School days, I opted for Physics, Chemistry and
               Maths which increased my interest in Cosmology - The Study of
               Physics of Outer Space. But I was not able to perform well in my
@@ -91,7 +91,7 @@ const Education = () => {
             <h1 className="fw-light">- Tilak International School</h1>
             <p>June 2015 to March 2016</p>
             <p className="mb-0">Achievements/Tasks:</p>
-            <p className="lead">
+            <p className="lead big--para">
               During my School days, I was not that of a smart kid but I always
               wanted had interest in getting to know more about the computer
               programming. I managed to score 60 percent in the exams.

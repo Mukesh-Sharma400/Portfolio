@@ -75,3 +75,7 @@ body {
   opacity: 1;
   left: 0;
 }
+.big--para {
+  text-align: justify;
+  text-justify: inter-word;
+}

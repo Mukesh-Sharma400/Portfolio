@@ -45,7 +45,7 @@ const Home = () => {
             <h1 className="display-5 fw-bold lh-1 mb-3">
               Who is <span className="text-danger">Mukesh</span> ?
             </h1>
-            <p className="text-start">
+            <p className="big--para">
               Hello, my name is Mukesh Sharma and I am a MERN Stack developer. I
               have extensive experience in building web applications using
               MongoDB, Express, React, and Node.js. I am passionate about

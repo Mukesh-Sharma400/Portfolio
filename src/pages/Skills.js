@@ -42,7 +42,7 @@ const Skills = () => {
             <h1 className="display-5 fw-bold lh-1 mb-4">
               I Create Responsive and Modern Websites
             </h1>
-            <p className="lead">
+            <p className="lead big--para">
               These websites are built with flexible layouts and use modern
               design elements and technologies, such as HTML5, CSS3, and
               JavaScript. Responsive websites automatically adjust their layout
@@ -84,39 +84,44 @@ const Skills = () => {
               </div>
             </div>
             <div class="col-md-8 col-sm-12">
-              <h3 className="fw-bold">What is MERN Stack ?</h3>
-              <p className="text-muted">
+              <h3 className="fw-bold">
+                What is <span className="mongo">M</span>
+                <span className="express">E</span>
+                <span className="react">R</span>
+                <span className="node">N</span> Stack ?
+              </h3>
+              <p className="text-muted big--para">
                 MERN stack is a JavaScript-based web development stack that
                 consists of four core technologies: MongoDB, Express.js,
                 React.js, and Node.js.
               </p>
-              <ul className="text-muted">
+              <ul className="text-muted ms-0 ps-3 big--para">
                 <li>
-                  <span className="fw-bold">MongoDB:</span> a NoSQL document
-                  database that stores data in JSON-like documents. It is highly
-                  scalable and flexible, allowing developers to store and
-                  retrieve data quickly and efficiently.
+                  <span className="fw-bold mongo">MongoDB:</span> a NoSQL
+                  document database that stores data in JSON-like documents. It
+                  is highly scalable and flexible, allowing developers to store
+                  and retrieve data quickly and efficiently.
                 </li>
                 <li>
-                  <span className="fw-bold">Express.js:</span> a web application
-                  framework that runs on Node.js, providing a simple and
-                  flexible way to create robust APIs and web applications. It
-                  provides a set of middleware that simplifies the handling of
-                  requests and responses, making it easier to build RESTful
+                  <span className="fw-bold express">Express.js:</span> a web
+                  application framework that runs on Node.js, providing a simple
+                  and flexible way to create robust APIs and web applications.
+                  It provides a set of middleware that simplifies the handling
+                  of requests and responses, making it easier to build RESTful
                   APIs.
                 </li>
                 <li>
-                  <span className="fw-bold">React.js:</span> a front-end library
-                  that allows developers to create dynamic user interfaces using
-                  a component-based approach. React is known for its performance
-                  and flexibility, and it is widely used to build scalable and
-                  complex web applications.
+                  <span className="fw-bold react">React.js:</span> a front-end
+                  library that allows developers to create dynamic user
+                  interfaces using a component-based approach. React is known
+                  for its performance and flexibility, and it is widely used to
+                  build scalable and complex web applications.
                 </li>
                 <li>
-                  <span className="fw-bold">Node.js:</span> a JavaScript runtime
-                  built on Chrome's V8 engine that allows developers to run
-                  JavaScript code outside of a web browser. Node.js provides a
-                  powerful platform for building scalable and high-performance
+                  <span className="fw-bold node">Node.js:</span> a JavaScript
+                  runtime built on Chrome's V8 engine that allows developers to
+                  run JavaScript code outside of a web browser. Node.js provides
+                  a powerful platform for building scalable and high-performance
                   web applications, and it is widely used for server-side
                   programming.
                 </li>

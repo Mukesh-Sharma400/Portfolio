@@ -29,10 +29,10 @@ const Experience = () => {
             <h1 className="fw-light">- NullClass</h1>
             <p>
               December 2022 to January 2023{" "}
-              <span className="float-end">Online</span>
+              <span className="text-secondary">( Online )</span>
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
-            <p className="lead">
+            <p className="lead big--para">
               In the internship period I performed several tasks like making a
               MERN Stack application responsive for all devices, integrating a
               chat bot and a community section.
@@ -53,10 +53,10 @@ const Experience = () => {
             <h1 className="fw-light">- Hasbasoft Technology</h1>
             <p>
               August 2021 to October 2022{" "}
-              <span className="float-end">Online</span>
+              <span className="text-secondary">( Online )</span>
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
-            <p className="lead">
+            <p className="lead big--para">
               In the training period I learned about MERN Stack Technology and
               build several projects like E-Commerce Web App and more under
               their guidance.
@@ -76,10 +76,11 @@ const Experience = () => {
             <h1 className="display-4 fw-bold">Freelancer</h1>
             <h1 className="fw-light">- Fiver</h1>
             <p>
-              May 2018 to Present <span className="float-end">Online</span>
+              May 2018 to September 2020{" "}
+              <span className="text-secondary">( Online )</span>
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
-            <p className="lead">
+            <p className="lead big--para">
               In the freelancing period I did several tasks / assignments for
               many clients in the Microsoft Visual Basic (VBA).
             </p>
