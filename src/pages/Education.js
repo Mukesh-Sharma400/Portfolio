@@ -25,7 +25,10 @@ const Education = () => {
             <h1 className="fw-light">
               - Sanpada College of Commerce & Technology
             </h1>
-            <p>September 2020 to Present</p>
+            <p>
+              September 2020 to Present{" "}
+              <span className="text-secondary">( Sanpada, Navi Mumbai )</span>
+            </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
               During my Bachelor's degree in Information Technology I learned a
@@ -67,7 +70,10 @@ const Education = () => {
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold">Higher School Certificates</h1>
             <h1 className="fw-light">- Pace Education Society</h1>
-            <p>June 2017 to May 2018</p>
+            <p>
+              June 2017 to May 2018{" "}
+              <span className="text-secondary">( Nerul, Navi Mumbai )</span>
+            </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
               During my High School days, I opted for Physics, Chemistry and
@@ -89,7 +95,10 @@ const Education = () => {
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold">Secondary School Certificates</h1>
             <h1 className="fw-light">- Tilak International School</h1>
-            <p>June 2015 to March 2016</p>
+            <p>
+              June 2015 to March 2016{" "}
+              <span className="text-secondary">( Ghansoli, Navi Mumbai )</span>
+            </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
               During my School days, I was not that of a smart kid but I always
