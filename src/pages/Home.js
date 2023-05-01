@@ -46,7 +46,7 @@ const Home = () => {
               Who is <span className="text-danger">Mukesh</span> ?
             </h1>
             <p className="big--para">
-              Hello, my name is Mukesh Sharma and I am a MERN Stack developer. I
+              Hi, my name is Mukesh Sharma and I am a MERN Stack developer. I
               have extensive experience in building web applications using
               MongoDB, Express, React, and Node.js. I am passionate about
               creating efficient and scalable applications that deliver a great
