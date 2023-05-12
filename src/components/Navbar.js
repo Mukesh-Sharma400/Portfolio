@@ -25,7 +25,7 @@ const Navbar = () => {
               <Link className="nav-link text-white" to="/skills">
                 <button
                   type="button"
-                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  className="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbar"
                 >
@@ -37,7 +37,7 @@ const Navbar = () => {
               <Link className="nav-link text-white" to="/projects">
                 <button
                   type="button"
-                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  className="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbar"
                 >
@@ -49,7 +49,7 @@ const Navbar = () => {
               <Link className="nav-link text-white" to="/education">
                 <button
                   type="button"
-                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  className="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbar"
                 >
@@ -61,7 +61,7 @@ const Navbar = () => {
               <Link className="nav-link text-white" to="/experience">
                 <button
                   type="button"
-                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  className="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbar"
                 >
@@ -73,7 +73,7 @@ const Navbar = () => {
               <Link className="nav-link text-white" to="/testimonials">
                 <button
                   type="button"
-                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  className="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbar"
                 >
@@ -85,7 +85,7 @@ const Navbar = () => {
               <Link className="nav-link text-white" to="/contact">
                 <button
                   type="button"
-                  class="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
+                  className="btn btn-link text-white m-0 p-0 mx-1 text-decoration-none"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbar"
                 >

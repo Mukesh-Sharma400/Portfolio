@@ -54,8 +54,8 @@ const Skills = () => {
         </div>
         <div className="py-5">
           <h2 className="pb-2 border-bottom">Tech Stack</h2>
-          <div class="row align-items-md-center py-5 g-4">
-            <div class="col-md-4 d-md-block">
+          <div className="row align-items-md-center py-5 g-4">
+            <div className="col-md-4 d-md-block">
               <div className="row row-cols-2 g-4">
                 <div className="col d-flex flex-column gap-2 align-items-center">
                   <div className="d-inline-flex align-items-center rounded-3">
@@ -83,7 +83,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-8 col-sm-12">
+            <div className="col-md-8 col-sm-12">
               <h3 className="fw-bold">
                 What is <span className="mongo">M</span>
                 <span className="express">E</span>

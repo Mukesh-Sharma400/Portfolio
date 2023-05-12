@@ -1,6 +1,8 @@
 import React from "react";
 import mern from "../assets/mern.png";
 import maukes from "../assets/maukes.png";
+import english from "../assets/english.jpg";
+import hindi from "../assets/hindi.jpg";
 import Resume from "../components/Resume";
 
 const Home = () => {
@@ -32,8 +34,8 @@ const Home = () => {
             integrations, and databases.
           </p>
         </div>
-        <div class="row align-items-md-center py-5 g-4">
-          <div class="col-md-4 d-md-block">
+        <div className="row align-items-md-center py-5 g-4">
+          <div className="col-md-4 d-md-block">
             <img
               src={maukes}
               className="d-block mx-lg-auto img-fluid"
@@ -41,7 +43,7 @@ const Home = () => {
               loading="lazy"
             />
           </div>
-          <div class="col-md-8 col-sm-12">
+          <div className="col-md-8 col-sm-12">
             <h1 className="display-5 fw-bold lh-1 mb-3">
               Who is <span className="text-danger">Mukesh</span> ?
             </h1>
@@ -59,6 +61,115 @@ const Home = () => {
               you're looking for a MERN Stack Developer to bring your ideas to
               life, let's collaborate!
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="container container-fluid">
+        <div className="row row-cols-1 row-cols-md-2">
+          <div className="col">
+            <h1 className="text-center mb-4">Languages</h1>
+            <div className="row">
+              <div className="col">
+                <div className="card mb-3">
+                  <div className="row g-0">
+                    <div className="col-md-4">
+                      <img
+                        src={english}
+                        className="img-fluid rounded-start"
+                        alt="english"
+                        style={{ width: "90px" }}
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title">English</h5>
+                        <p className="card-text">
+                          <small className="text-body-secondary">
+                            Full Professional Proficiency
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <div className="card mb-3">
+                  <div className="row g-0">
+                    <div className="col-md-4">
+                      <img
+                        src={hindi}
+                        className="img-fluid rounded-start"
+                        alt="english"
+                        style={{ width: "90px" }}
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title">Hindi</h5>
+                        <p className="card-text">
+                          <small className="text-body-secondary">
+                            Native or Bilingual Proficiency
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <div className="card mb-3">
+                  <div className="row g-0">
+                    <div className="col-md-4">
+                      <img
+                        src={english}
+                        className="img-fluid rounded-start"
+                        alt="english"
+                        style={{ width: "90px" }}
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title">Marathi</h5>
+                        <p className="card-text">
+                          <small className="text-body-secondary">
+                            Elementary Proficiency
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <h1 className="text-center mb-4">Interests</h1>
+            <div className="d-flex flex-wrap justify-content-between">
+              <div className="card mb-3 p-2 me-2">
+                <h5 className="card-title">Coding</h5>
+              </div>
+              <div className="card mb-3 p-2 me-2">
+                <h5 className="card-title">Music</h5>
+              </div>
+              <div className="card mb-3 p-2 me-2">
+                <h5 className="card-title">Chess</h5>
+              </div>
+              <div className="card mb-3 p-2 me-2">
+                <h5 className="card-title">Cricket</h5>
+              </div>
+              <div className="card mb-3 p-2 me-2">
+                <h5 className="card-title">Football</h5>
+              </div>
+              <div className="card mb-3 p-2 me-2">
+                <h5 className="card-title">Carrom</h5>
+              </div>
+              <div className="card mb-3 p-2 me-2">
+                <h5 className="card-title">Movies</h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>

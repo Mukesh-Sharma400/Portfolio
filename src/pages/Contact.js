@@ -112,7 +112,7 @@ const Contact = () => {
                     <i className="bi bi-telephone-fill text-dark me-2"></i>
                     <span className="fw-bold">Phone:</span> (+91) 70217-39604{" "}
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
@@ -126,7 +126,7 @@ const Contact = () => {
                     <i className="bi bi-envelope-fill text-dark me-2"></i>
                     <span className="fw-bold">Gmail:</span> mksh400@gmail.com
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
@@ -140,7 +140,7 @@ const Contact = () => {
                     <i className="bi bi-linkedin text-dark me-2"></i>
                     <span className="fw-bold">LinkedIn:</span> mukesh-sharma400
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
@@ -154,7 +154,7 @@ const Contact = () => {
                     <i className="bi bi-github text-dark me-2"></i>
                     <span className="fw-bold">GitHub:</span> Mukesh-Sharma400
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
@@ -168,7 +168,7 @@ const Contact = () => {
                     <i className="bi bi-facebook text-dark me-2"></i>
                     <span className="fw-bold">Facebook:</span> Mukesh400f
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
@@ -182,7 +182,7 @@ const Contact = () => {
                     <i className="bi bi-instagram text-dark me-2"></i>
                     <span className="fw-bold">Instagram:</span> mukesh_sharma400
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
@@ -196,7 +196,7 @@ const Contact = () => {
                     <i className="bi bi-twitter text-dark me-2"></i>
                     <span className="fw-bold">Twitter:</span> mukesh_sharma36
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
@@ -211,7 +211,7 @@ const Contact = () => {
                     <span className="fw-bold">Address:</span> Ghansoli, Navi
                     Mumbai{" "}
                     <span className="float-end">
-                      <i class="bi bi-box-arrow-up-right"></i>
+                      <i className="bi bi-box-arrow-up-right"></i>
                     </span>
                   </a>
                 </li>
