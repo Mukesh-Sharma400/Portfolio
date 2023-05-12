@@ -46,7 +46,7 @@ const Home = () => {
               Who is <span className="text-danger">Mukesh</span> ?
             </h1>
             <p className="big--para">
-              Hi, my name is Mukesh Sharma and I'm a MERN Stack developer with a
+              Hi, my name is Mukesh Sharma and I'm a MERN Stack Developer with a
               passion for building efficient and scalable web applications. With
               expertise in MongoDB, Express, React, and Node.js, I specialize in
               developing RESTful APIs, integrating databases, and implementing
@@ -56,7 +56,7 @@ const Home = () => {
               project requirements. As a self-motivated problem solver, I strive
               to write maintainable and reusable code. I'm always looking for
               opportunities to improve my skills and learn new technologies. If
-              you're looking for a MERN Stack developer to bring your ideas to
+              you're looking for a MERN Stack Developer to bring your ideas to
               life, let's collaborate!
             </p>
           </div>

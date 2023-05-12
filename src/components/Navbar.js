@@ -81,26 +81,6 @@ const Navbar = () => {
                 </button>
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link text-white" to="/projects">
-                Projects
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white" to="/education">
-                Education
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white" to="/experience">
-                Experience
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white" to="/contact">
-                Contact
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
