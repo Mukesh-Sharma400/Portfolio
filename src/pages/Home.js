@@ -1,8 +1,6 @@
 import React from "react";
 import mern from "../assets/mern.png";
 import maukes from "../assets/maukes.png";
-import english from "../assets/english.jpg";
-import hindi from "../assets/hindi.jpg";
 import Resume from "../components/Resume";
 
 const Home = () => {
@@ -72,20 +70,12 @@ const Home = () => {
               <div className="col">
                 <div className="card mb-3">
                   <div className="row g-0">
-                    <div className="col-md-4">
-                      <img
-                        src={english}
-                        className="img-fluid rounded-start"
-                        alt="english"
-                        style={{ width: "90px" }}
-                      />
-                    </div>
                     <div className="col-md-8">
                       <div className="card-body">
                         <h5 className="card-title">English</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
-                            Full Professional Proficiency
+                            - Full Professional Proficiency
                           </small>
                         </p>
                       </div>
@@ -98,20 +88,12 @@ const Home = () => {
               <div className="col">
                 <div className="card mb-3">
                   <div className="row g-0">
-                    <div className="col-md-4">
-                      <img
-                        src={hindi}
-                        className="img-fluid rounded-start"
-                        alt="english"
-                        style={{ width: "90px" }}
-                      />
-                    </div>
                     <div className="col-md-8">
                       <div className="card-body">
                         <h5 className="card-title">Hindi</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
-                            Native or Bilingual Proficiency
+                            - Native or Bilingual Proficiency
                           </small>
                         </p>
                       </div>
@@ -122,20 +104,12 @@ const Home = () => {
               <div className="col">
                 <div className="card mb-3">
                   <div className="row g-0">
-                    <div className="col-md-4">
-                      <img
-                        src={english}
-                        className="img-fluid rounded-start"
-                        alt="english"
-                        style={{ width: "90px" }}
-                      />
-                    </div>
                     <div className="col-md-8">
                       <div className="card-body">
                         <h5 className="card-title">Marathi</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
-                            Elementary Proficiency
+                            - Elementary Proficiency
                           </small>
                         </p>
                       </div>
