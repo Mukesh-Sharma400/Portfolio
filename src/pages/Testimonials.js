@@ -1,7 +1,5 @@
 import React from "react";
 import nitin from "../assets/nitin.jpg";
-import girl1 from "../assets/girl1.jpg";
-import girl2 from "../assets/girl2.png";
 import Resume from "../components/Resume";
 
 const Testimonials = () => {
