@@ -64,7 +64,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container container-fluid">
+      <div className="container container-fluid mb-5">
         <div className="row row-cols-1 row-cols-md-2">
           <div className="col">
             <h1 className="text-center mb-4">Languages</h1>
@@ -149,25 +149,25 @@ const Home = () => {
             <h1 className="text-center mb-4">Interests</h1>
             <div className="d-flex flex-wrap justify-content-between">
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">Coding</h5>
+                <h5 className="card-title">👨🏾‍💻 Coding</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">Music</h5>
+                <h5 className="card-title">🎧 Music</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">Chess</h5>
+                <h5 className="card-title">♟️ Chess</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">Cricket</h5>
+                <h5 className="card-title">🏏 Cricket</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">Football</h5>
+                <h5 className="card-title">⚽ Football</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">Carrom</h5>
+                <h5 className="card-title">⭕ Carrom</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">Movies</h5>
+                <h5 className="card-title">🎥 Movies</h5>
               </div>
             </div>
           </div>
