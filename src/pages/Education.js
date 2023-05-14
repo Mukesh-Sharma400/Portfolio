@@ -31,10 +31,11 @@ const Education = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              During my Bachelor's degree in Information Technology I learned a
-              lot of things and acquired many skills. I also achieved a
-              certificate for the Brain Storm Event and got good score in the
-              Aptitude Test.
+              I always had a passion for web development and acquired skills in
+              various web technologies. I have created many websites, which
+              impressed all my colleagues and professors. I became a
+              sought-after web developer, proving that hard work and dedication
+              can lead to success.
             </p>
           </div>
         </div>
@@ -76,10 +77,10 @@ const Education = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              During my High School days, I opted for Physics, Chemistry and
-              Maths which increased my interest in Cosmology - The Study of
-              Physics of Outer Space. But I was not able to perform well in my
-              exams and I only scored 50 percent in total.
+              I was always been fascinated by the mysteries of the universe.
+              Despite not being the smartest student in my class, I spends every
+              free moment delving into books and videos on cosmology and
+              astrophysics.
             </p>
           </div>
         </div>
@@ -101,9 +102,10 @@ const Education = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              During my School days, I was not that of a smart kid but I always
-              wanted had interest in getting to know more about the computer
-              programming. I managed to score 60 percent in the exams.
+              I always had a keen interest in computers and technology, I used
+              to participates in a school computer science competition despite
+              my lack of confidence. I studied hard, boosting my confidence and
+              setting my on a path towards a successful career in technology.
             </p>
           </div>
         </div>
