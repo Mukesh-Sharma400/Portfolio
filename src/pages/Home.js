@@ -138,10 +138,10 @@ const Home = () => {
                 <h5 className="card-title">⚽ Football</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">⭕ Carrom</h5>
+                <h5 className="card-title">🎥 Movies</h5>
               </div>
               <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">🎥 Movies</h5>
+                <h5 className="card-title">⭕ Carrom</h5>
               </div>
             </div>
           </div>
