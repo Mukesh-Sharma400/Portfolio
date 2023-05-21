@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div className="download--resume">
       <a
-        href="https://drive.google.com/file/d/1yJuNd_9zikc87XjfUUsiMLedqSmBavWG/view?usp=share_link"
+        href="https://drive.google.com/file/d/1S0BfApnIGaOUY-5kO0hl0yioUtj7Tm1d/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
