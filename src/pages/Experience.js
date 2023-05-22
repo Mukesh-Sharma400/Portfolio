@@ -15,8 +15,8 @@ const Experience = () => {
     <div>
       <Resume />
       <div className="pt-4 mt-5 container container-fluid col-xxl-8">
-        <div className="row flex-lg-row-reverse align-items-center g-3 my-3 border-bottom pb-5">
-          <div className="col-10 col-sm-8 col-lg-6">
+        <div className="row flex-row-reverse align-items-md-center py-5 g-4 border-bottom">
+          <div className="col-md-4 d-md-block mt-0">
             <img
               src={nullclass}
               className="d-block mx-lg-auto img-fluid"
@@ -24,7 +24,7 @@ const Experience = () => {
               loading="lazy"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-md-8 col-sm-12">
             <h1 className="display-4 fw-bold">Project Intern</h1>
             <h1 className="fw-light">- NullClass</h1>
             <p>
@@ -33,14 +33,16 @@ const Experience = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              In the internship period I performed several tasks like making a
-              MERN Stack application responsive for all devices, integrating a
-              chat bot and a community section.
+              As a NullClass Project Intern, I created a responsive MERN Stack
+              app (Stack Overflow Clone) and added features like a chat bot and
+              community section. I gained valuable experience in React, Node.js,
+              Express.js, and MongoDB, improving my skills in building scalable
+              and user-centric web applications.
             </p>
           </div>
         </div>
-        <div className="row align-items-center g-3 my-3 border-bottom pb-5">
-          <div className="col-10 col-sm-8 col-lg-6">
+        <div className="row align-items-md-center py-5 g-4 border-bottom">
+          <div className="col-md-4 d-md-block mt-0">
             <img
               src={hasbasoft}
               className="d-block mx-lg-auto img-fluid"
@@ -48,23 +50,25 @@ const Experience = () => {
               loading="lazy"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-md-8 col-sm-12">
             <h1 className="display-4 fw-bold">MERN Stack Software Trainee</h1>
-            <h1 className="fw-light">- Hasbasoft Technology</h1>
+            <h1 className="fw-light">- Hasbasoft Technology Pvt Ltd</h1>
             <p>
               August 2021 to October 2022{" "}
               <span className="text-secondary">( Online )</span>
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              In the training period I learned about MERN Stack Technology and
-              build several projects like E-Commerce Web App and more under
-              their guidance.
+              As a Software Trainee at Hasbasoft Technology Pvt Ltd, I built
+              several MERN Stack applications, including an Ecommerce platform.
+              Through hands-on experience, I gained expertise in React, Node.js,
+              Express.js, and MongoDB, developing dynamic and user-friendly web
+              solutions in a professional software development environment.
             </p>
           </div>
         </div>
-        <div className="row flex-lg-row-reverse align-items-center g-3 my-3">
-          <div className="col-10 col-sm-8 col-lg-6">
+        <div className="row flex-row-reverse align-items-md-center py-5 g-4 border-bottom">
+          <div className="col-md-4 d-md-block mt-0">
             <img
               src={fiver}
               className="d-block mx-lg-auto img-fluid"
@@ -72,7 +76,7 @@ const Experience = () => {
               loading="lazy"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-md-8 col-sm-12">
             <h1 className="display-4 fw-bold">Freelancer</h1>
             <h1 className="fw-light">- Fiver</h1>
             <p>
@@ -81,8 +85,11 @@ const Experience = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              In the freelancing period I did several tasks / assignments for
-              many clients in the Microsoft Visual Basic (VBA).
+              As a Fiverr freelancer, I excelled in Excel VBA, completing
+              diverse tasks for multiple clients. With expertise in automation
+              and data manipulation, I delivered efficient and tailored
+              solutions, consistently exceeding expectations. Positive feedback
+              attests to my strong Excel VBA skills and professionalism.
             </p>
           </div>
         </div>
