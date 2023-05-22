@@ -122,26 +122,26 @@ const Home = () => {
           <div className="col">
             <h1 className="text-center mb-4">Interests</h1>
             <div className="d-flex flex-wrap justify-content-between">
-              <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">👨🏾‍💻 Coding</h5>
+              <div className="card mb-3 p-2">
+                <h5 className="card-title mb-0">👨🏾‍💻 Coding</h5>
               </div>
-              <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">🎧 Music</h5>
+              <div className="card mb-3 p-2">
+                <h5 className="card-title mb-0">🎧 Music</h5>
               </div>
-              <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">♟️ Chess</h5>
+              <div className="card mb-3 p-2">
+                <h5 className="c mb-0">♟️ Chess</h5>
               </div>
-              <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">🏏 Cricket</h5>
+              <div className="card mb-3 p-2">
+                <h5 className="card-title mb-0">🏏 Cricket</h5>
               </div>
-              <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">⚽ Football</h5>
+              <div className="card mb-3 p-2">
+                <h5 className="card-title mb-0">⚽ Football</h5>
               </div>
-              <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">🎥 Movies</h5>
+              <div className="card mb-3 p-2">
+                <h5 className="c mb-0">🎥 Movies</h5>
               </div>
-              <div className="card mb-3 p-2 me-2">
-                <h5 className="card-title">⭕ Carrom</h5>
+              <div className="card mb-3 p-2">
+                <h5 className="card-title mb-0">⭕ Carrom</h5>
               </div>
             </div>
           </div>
