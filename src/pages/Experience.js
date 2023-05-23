@@ -153,7 +153,7 @@ const Experience = () => {
         <h1 className="mt-5 pb-2 text-center text-uppercase display-4 fw-bold">
           Certificates
         </h1>
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5">
           {certificates.map((certificate) => (
             <div className="col" key={certificate.id}>
               <div className="card shadow h-100 rounded-3">

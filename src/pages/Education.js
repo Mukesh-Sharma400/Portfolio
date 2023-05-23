@@ -7,6 +7,21 @@ import school from "../assets/school.png";
 import Resume from "../components/Resume";
 
 const Education = () => {
+  const certificates = [
+    {
+      id: "01",
+      title: "Certificate of Aptitude Test",
+      image: aptitude,
+      alt: "certificate_of_aptitude_test",
+    },
+    {
+      id: "02",
+      title: "Certificate of Brain Storm",
+      image: brainstrom,
+      alt: "certificate_of_brain_storm",
+    },
+  ];
+
   return (
     <div>
       <Resume />
@@ -40,24 +55,17 @@ const Education = () => {
           </div>
         </div>
         <div className="row row-cols-1 row-cols-md-2 g-3 pb-5 border-bottom">
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">Certificate of Aptitude Test</h4>
+          {certificates.map((certificate) => (
+            <div className="col" key={certificate.id}>
+              <div className="card shadow h-100 rounded-3">
+                <div className="card-header">
+                  <h4 className="text-center">{certificate.title}</h4>
+                </div>
+                <img src={certificate.image} alt={certificate.alt} />
+                <title>{certificate.title}</title>
               </div>
-              <img src={aptitude} alt="aptitude" />
-              <title>Certificate of Aptitude Test</title>
             </div>
-          </div>
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">Certificate of Brain Storm</h4>
-              </div>
-              <img src={brainstrom} alt="brainstrom" />
-              <title>Certificate of Brain Storm</title>
-            </div>
-          </div>
+          ))}
         </div>
         <div className="row align-items-center g-3 border-bottom py-5">
           <div className="col-10 col-sm-8 col-lg-6">
