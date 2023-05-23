@@ -11,6 +11,63 @@ import internship from "../assets/Internship Certificate - NullClass.png";
 import Resume from "../components/Resume";
 
 const Experience = () => {
+  const certificates = [
+    {
+      id: "01",
+      title: "Certificate of Internship",
+      image: internship,
+      alt: "certificate_of_internship",
+      description:
+        "I successfully completed a MERN stack web development internship, earning a certification that demonstrates my proficiency in building dynamic web applications using MongoDB, Express.js, React.js, and Node.js.",
+      link: "https://www.linkedin.com/posts/mukesh-sharma400_certificate-of-internship-nullclass-activity-7017920222397370368-2D-V?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+      id: "02",
+      title: "Certificate of Training",
+      image: training,
+      alt: "certificate_of_training",
+      description:
+        "I have successfully completed a comprehensive MERN stack web development training program, acquiring in-depth knowledge and skills in MongoDB, Express.js, React, and Node.js.",
+      link: "https://www.linkedin.com/posts/mukesh-sharma400_stack-overflow-clone-certificate-activity-7013058153118363648-9Ih3?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+      id: "03",
+      title: "E-Commerce Portal",
+      image: ecommerce,
+      alt: "certificate_of_ecommerce",
+      description:
+        "I have received a certification in MERN stack web development, specializing in creating and maintaining e-commerce portal web applications with expertise in MongoDB, Express.js, React.js, and Node.js.",
+      link: "https://www.linkedin.com/posts/mukesh-sharma400_e-commerce-web-app-certificate-activity-6925358509735706624-owJ5?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+      id: "04",
+      title: "Dice Game",
+      image: dice,
+      alt: "certificate_of_dice_game",
+      description:
+        "Certification obtained for advanced JavaScript-based dice game web application. Demonstrating proficiency in developing interactive and engaging gaming experiences using JavaScript and related technologies.",
+      link: "https://www.linkedin.com/posts/mukesh-sharma400_javascript-certificate-2-activity-6924316331756388352-g4RC?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+      id: "05",
+      title: "Music in JavaScript",
+      image: music,
+      alt: "certificate_of_music_in_javascript",
+      description:
+        "Certification of music player web application in advance JavaScript. Verified proficiency in developing interactive and seamless music players, utilizing advanced JavaScript techniques for enhanced user experience.",
+      link: "https://www.linkedin.com/posts/mukesh-sharma400_javascript-certificate-1-activity-6924316178202918912-EBDg?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+      id: "06",
+      title: "Netflix Like Frontend",
+      image: netflix,
+      alt: "certificate_of_netflix",
+      description:
+        "Certification received for creating a Netflix clone web application using HTML and CSS, demonstrating proficiency in frontend development and UI design.",
+      link: "https://www.linkedin.com/posts/mukesh-sharma400_frontend-certificate-activity-6924314403915857920-XaND?utm_source=share&utm_medium=member_desktop",
+    },
+  ];
+
   return (
     <div>
       <Resume />
@@ -96,182 +153,32 @@ const Experience = () => {
         <h1 className="mt-5 pb-2 text-center text-uppercase display-4 fw-bold">
           Certificates
         </h1>
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-3">
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">Certificate of Internship</h4>
-              </div>
-              <img src={internship} alt="netflix" />
-              <title>Certificate of Internship</title>
-              <div className="card-body">
-                <p>
-                  During the intern period I got to learn how should one
-                  approach a complex problem and what all steps are required for
-                  a MERN Stack application building. In the internship period I
-                  performed several tasks like making a MERN Stack application
-                  responsive for all devices, integrating a chat bot and a
-                  community section.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.linkedin.com/posts/mukesh-sharma400_certificate-of-internship-nullclass-activity-7017920222397370368-2D-V?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button type="button" className="btn btn-outline-primary">
-                    View on LinkedIn
-                  </button>
-                </a>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          {certificates.map((certificate) => (
+            <div className="col">
+              <div className="card shadow h-100 rounded-3">
+                <div className="card-header">
+                  <h4 className="text-center">{certificate.title}</h4>
+                </div>
+                <img src={certificate.image} alt={certificate.alt} />
+                <title>{certificate.title}</title>
+                <div className="card-body">
+                  <p>{certificate.description}</p>
+                </div>
+                <div className="card-footer">
+                  <a
+                    href={certificate.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button type="button" className="btn btn-outline-primary">
+                      View on LinkedIn
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">Certificate of Training</h4>
-              </div>
-              <img src={training} alt="netflix" />
-              <title>Certificate of Training</title>
-              <div className="card-body">
-                <p>
-                  Certificate of Completion, A Stack Overflow Clone Web
-                  Application using MERN Stack under the guidance of
-                  Yougetplaced via NullClass.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.linkedin.com/posts/mukesh-sharma400_stack-overflow-clone-certificate-activity-7013058153118363648-9Ih3?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button type="button" className="btn btn-outline-primary">
-                    View on LinkedIn
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">E-Commerce Web App</h4>
-              </div>
-              <img src={ecommerce} alt="netflix" />
-              <title>E-Commerce Web App</title>
-              <div className="card-body">
-                <p>
-                  Certificate of Completion, An E-commerce Web Application using
-                  ReactJS (MERN).
-                </p>
-                <h6>Build using -</h6>
-                <p className="card-text">
-                  ReactJS, Firebase, Firestore, Context API, AJAX, React Hooks,
-                  Express, CORS, NodeJS, REST full API.
-                </p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.linkedin.com/posts/mukesh-sharma400_e-commerce-web-app-certificate-activity-6925358509735706624-owJ5?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button type="button" className="btn btn-outline-primary ">
-                    View on LinkedIn
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5 pb-4">
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">Dice Game</h4>
-              </div>
-              <img src={dice} alt="netflix" />
-              <title>Dice Game</title>
-              <div className="card-body">
-                <p>
-                  Certificate of Completion, A Frontend project using #html5,
-                  #css3 and #javascripts.
-                </p>
-                <h6>Build using -</h6>
-                <p className="card-text">HTML, CSS, Javascript.</p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.linkedin.com/posts/mukesh-sharma400_javascript-certificate-2-activity-6924316331756388352-g4RC?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button type="button" className="btn btn-outline-primary">
-                    View on LinkedIn
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">Music in JavaScript</h4>
-              </div>
-              <img src={music} alt="netflix" />
-              <title>Music in JavaScript</title>
-              <div className="card-body">
-                <p>
-                  Certificate of Completion, A Frontend project using #html5,
-                  #css3 and #javascripts.
-                </p>
-                <h6>Build using -</h6>
-                <p className="card-text">HTML, CSS, Javascript.</p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.linkedin.com/posts/mukesh-sharma400_javascript-certificate-1-activity-6924316178202918912-EBDg?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button type="button" className="btn btn-outline-primary">
-                    View on LinkedIn
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card shadow h-100 rounded-3">
-              <div className="card-header">
-                <h4 className="text-center">Netflix Like Frontend</h4>
-              </div>
-              <img src={netflix} alt="netflix" />
-              <title>Netflix Like Frontend</title>
-              <div className="card-body">
-                <p>
-                  Certificate of Completion, A Frontend project(Netflix Clone)
-                  using #html5 and #css3. Note- I also used #javascripts in the
-                  later version(Mark 2).
-                </p>
-                <h6>Build using -</h6>
-                <p className="card-text">HTML, CSS, Javascript.</p>
-              </div>
-              <div className="card-footer">
-                <a
-                  href="https://www.linkedin.com/posts/mukesh-sharma400_frontend-certificate-activity-6924314403915857920-XaND?utm_source=share&utm_medium=member_desktop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button type="button" className="btn btn-outline-primary ">
-                    View on LinkedIn
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
