@@ -25,6 +25,30 @@ import excelvba from "../assets/excelvba.png";
 import Resume from "../components/Resume";
 
 const Skills = () => {
+  const weblanguages = [
+    { id: "01", image: html, title: "HTML", alt: "html" },
+    { id: "02", image: css, title: "CSS", alt: "css" },
+    { id: "03", image: javascript, title: "JAVASCRIPT", alt: "javascript" },
+    { id: "04", image: sass, title: "SASS", alt: "sass" },
+    { id: "05", image: bootstrap, title: "BOOTSTRAP CSS", alt: "bootstrap" },
+    { id: "06", image: tailwind, title: "TAILWIND CSS", alt: "tailwind" },
+    { id: "07", image: material, title: "MATERIAL UI", alt: "material" },
+    { id: "08", image: chakra, title: "CHAKRA UI", alt: "chakra" },
+    { id: "09", image: laravel, title: "LARAVEL", alt: "laravel" },
+    { id: "10", image: aspnet, title: "ASP.NET", alt: "asp.net" },
+  ];
+
+  const proglanguages = [
+    { id: "01", image: c, title: "C", alt: "c" },
+    { id: "02", image: cplus, title: "C++", alt: "cplus" },
+    { id: "03", image: csharp, title: "C#", alt: "csharp" },
+    { id: "04", image: python, title: "PYTHON", alt: "python" },
+    { id: "05", image: java, title: "JAVA", alt: "java" },
+    { id: "06", image: r, title: "R", alt: "r" },
+    { id: "07", image: kotlin, title: "KOTLIN", alt: "kotlin" },
+    { id: "08", image: excelvba, title: "EXCEL VBA", alt: "excelvba" },
+  ];
+
   return (
     <div>
       <Resume />
@@ -131,177 +155,45 @@ const Skills = () => {
         </div>
         <h2 className="pb-2 border-bottom">Web Languages</h2>
         <div className="d-flex flex-wrap m-auto justify-content-between py-5">
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={html} className="card-img-top" alt="html" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">HTML</p>
+          {weblanguages.map((language) => (
+            <div
+              className="card shadow-sm mb-4 languages"
+              style={{ width: "8rem" }}
+              key={language.id}
+            >
+              <img
+                src={language.image}
+                className="card-img-top"
+                alt="`{language.alt}`"
+              />
+              <div className="card-body">
+                <p className="card-text text-center text-uppercase">
+                  {language.title}
+                </p>
+              </div>
             </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={css} className="card-img-top" alt="css" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">CSS</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={javascript} className="card-img-top" alt="javascript" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">JAVASCRIPT</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={sass} className="card-img-top" alt="sass" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">SASS</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={bootstrap} className="card-img-top" alt="bootstrap" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">
-                BOOTSTRAP CSS
-              </p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={tailwind} className="card-img-top" alt="tailwind" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">
-                TAILWIND CSS
-              </p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={material} className="card-img-top" alt="material" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">
-                MATERIAL UI
-              </p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={chakra} className="card-img-top" alt="chakra" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">CHAKRA UI</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={laravel} className="card-img-top" alt="laravel" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">LARAVEL</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={aspnet} className="card-img-top" alt="aspnet" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">ASP.NET</p>
-            </div>
-          </div>
+          ))}
         </div>
         <h2 className="pb-2 border-bottom">Programming Languages</h2>
         <div className="d-flex flex-wrap m-auto justify-content-between py-5">
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={c} className="card-img-top" alt="c" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">C</p>
+          {proglanguages.map((language) => (
+            <div
+              className="card shadow-sm mb-4 languages"
+              style={{ width: "8rem" }}
+              key={language.id}
+            >
+              <img
+                src={language.image}
+                className="card-img-top"
+                alt="`{language.alt}`"
+              />
+              <div className="card-body">
+                <p className="card-text text-center text-uppercase">
+                  {language.title}
+                </p>
+              </div>
             </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={cplus} className="card-img-top" alt="cplus" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">C++</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={csharp} className="card-img-top" alt="csharp" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">C#</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={python} className="card-img-top" alt="python" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">PYTHON</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={java} className="card-img-top" alt="java" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">JAVA</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={r} className="card-img-top" alt="r" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">R</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={kotlin} className="card-img-top" alt="kotlin" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">KOTLIN</p>
-            </div>
-          </div>
-          <div
-            className="card shadow-sm mb-4 languages"
-            style={{ width: "8rem" }}
-          >
-            <img src={excelvba} className="card-img-top" alt="excelvba" />
-            <div className="card-body">
-              <p className="card-text text-center text-uppercase">EXCEL VBA</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
