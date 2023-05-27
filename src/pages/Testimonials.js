@@ -1,4 +1,5 @@
 import React from "react";
+import alikarim from "../assets/alikarim.jfif";
 import nitin from "../assets/nitin.jpg";
 import Resume from "../components/Resume";
 
@@ -60,6 +61,47 @@ const Testimonials = () => {
         <div className="row g-0">
           <div className="col-sm-1 col-md-4 m-auto text-center">
             <img
+              src={alikarim}
+              className="img-fluid rounded-circle m-auto"
+              alt="alikarim"
+            />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title fs-2">
+                Ali Karim Sayed
+                <a
+                  href="https://www.linkedin.com/in/alikarim007"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="bi bi-linkedin ms-2"></i>
+                </a>
+              </h5>
+              <p className="card-text fs-5">
+                Mukesh Sharma consistently demonstrated exceptional aptitude and
+                enthusiasm for learning the ins and outs of the MERN Stack. He
+                exhibited a strong grasp of the core concepts and principles,
+                showcasing their ability to apply them effectively in real-world
+                scenarios. He has exhibited a remarkable work ethic and
+                commitment to excellence throughout the training period. He
+                consistently showed a thirst for knowledge, actively seeking
+                additional resources and going above and beyond to expand their
+                understanding of the MERN Stack. His dedication and passion for
+                learning were evident in their consistent progress and the
+                quality of their work.
+              </p>
+              <p className="card-text text-body-secondary fs-5">
+                - Posted on 27 May 2023
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="card mb-4">
+        <div className="row g-0">
+          <div className="col-sm-1 col-md-4 m-auto text-center">
+            <img
               src={nitin}
               className="img-fluid rounded-circle m-auto"
               alt="nitin"
@@ -77,7 +119,7 @@ const Testimonials = () => {
                   <i className="bi bi-linkedin ms-2"></i>
                 </a>
               </h5>
-              <p className="card-text fs-4">
+              <p className="card-text fs-5">
                 I highly recommend Mukesh as a MERN Stack Developer and would
                 love to work together. Mukesh is amazing at his job! He knows
                 his way around people, he is good with the clients, does
