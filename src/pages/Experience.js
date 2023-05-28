@@ -174,7 +174,7 @@ const Experience = () => {
                     rel="noopener noreferrer"
                   >
                     <button type="button" className="btn btn-outline-primary">
-                      View on LinkedIn
+                      View on LinkedIn 👀
                     </button>
                   </a>
                 </div>

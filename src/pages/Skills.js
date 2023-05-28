@@ -54,7 +54,7 @@ const Skills = () => {
       <Resume />
       <div className="pt-5 mt-5 container container-fluid">
         <div className="row flex-lg-row-reverse align-items-center justify-content-center g-3">
-          <div className="col-10 col-sm-8 col-lg-6">
+          <div className="col-10 col-sm-8 col-lg-5">
             <img
               src={skills}
               className="d-block mx-lg-auto img-fluid"
@@ -62,17 +62,17 @@ const Skills = () => {
               loading="lazy"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-7">
             <h1 className="display-5 fw-bold lh-1 mb-4">
-              I Create Responsive and Modern Websites
+              I ✨Create✨ Responsive 💻and 🏢Modern 🌎Websites✨!
             </h1>
             <p className="lead big--para">
-              These websites are built with flexible layouts and use modern
+              These websites are built with ✨flexible layouts✨ and use 🛠modern
               design elements and technologies, such as HTML5, CSS3, and
-              JavaScript. Responsive websites automatically adjust their layout
-              and content based on the device screen size, ensuring that the
-              website looks and functions well on any device. This enhances the
-              user experience and improves website accessibility.
+              JavaScript. Responsive websites 📱automatically adjust their
+              layout and content based on the device screen size, ensuring that
+              the website looks and functions well on any device. This enhances
+              the user experience and improves website accessibility. 💯
             </p>
           </div>
         </div>
@@ -112,7 +112,7 @@ const Skills = () => {
                 What is <span className="mongo">M</span>
                 <span className="express">E</span>
                 <span className="react">R</span>
-                <span className="node">N</span> Stack ?
+                <span className="node">N</span> Stack ? 🤔
               </h3>
               <p className="text-muted big--para">
                 MERN stack is a JavaScript-based web development stack that
