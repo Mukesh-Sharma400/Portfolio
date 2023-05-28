@@ -46,11 +46,11 @@ const Education = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              I always had a passion for web development and acquired skills in
-              various web technologies. I have created many websites, which
-              impressed all my colleagues and professors. I became a
-              sought-after web developer, proving that hard work and dedication
-              can lead to success.
+              I ✨always✨ had a 🔥passion🔥 for web development and acquired
+              skills in various web technologies 💻. I have created many
+              websites 🌎, which impressed all my colleagues 👩‍💻 and professors
+              👨‍🏫. I became a sought-after web developer 🚀, proving that hard
+              work and dedication can lead to success 🏆.
             </p>
           </div>
         </div>
@@ -85,10 +85,10 @@ const Education = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              I was always been fascinated by the mysteries of the universe.
-              Despite not being the smartest student in my class, I spends every
-              free moment delving into books and videos on cosmology and
-              astrophysics.
+              I was always 🤯 fascinated by the mysteries of the universe.
+              Despite not being the smartest 🤓 student in my class, I 📚 spends
+              every free moment delving into books and videos on cosmology and
+              astrophysics. 🌌🔭
             </p>
           </div>
         </div>
@@ -110,10 +110,11 @@ const Education = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              I always had a keen interest in computers and technology, I used
-              to participates in a school computer science competition despite
-              my lack of confidence. I studied hard, boosting my confidence and
-              setting my on a path towards a successful career in technology.
+              I always had a keen interest in computers and technology 💻🖱️, I
+              used to participate in a school computer science competition 🏆
+              despite my lack of confidence 🥺. I studied hard 📚, boosting my
+              confidence and setting me on a path towards a successful career in
+              technology 🚀.
             </p>
           </div>
         </div>

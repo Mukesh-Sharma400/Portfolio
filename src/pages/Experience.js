@@ -90,11 +90,11 @@ const Experience = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              As a NullClass Project Intern, I created a responsive MERN Stack
-              app (Stack Overflow Clone) and added features like a chat bot and
-              community section. I gained valuable experience in React, Node.js,
-              Express.js, and MongoDB, improving my skills in building scalable
-              and user-centric web applications.
+              As a 👩‍💻 NullClass Project Intern, I created a 🚀 responsive MERN
+              Stack app (Stack Overflow Clone) and added features like a 🤖 chat
+              bot and community section. I gained valuable experience in 🛠
+              React, Node.js, Express.js, and MongoDB, improving my skills in
+              building 🏢 scalable and user-centric web applications.
             </p>
           </div>
         </div>
@@ -116,11 +116,12 @@ const Experience = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              As a Software Trainee at Hasbasoft Technology Pvt Ltd, I built
-              several MERN Stack applications, including an Ecommerce platform.
-              Through hands-on experience, I gained expertise in React, Node.js,
-              Express.js, and MongoDB, developing dynamic and user-friendly web
-              solutions in a professional software development environment.
+              As a Software Trainee at Hasbasoft Technology Pvt Ltd 🚀, I built
+              several MERN Stack applications, including an Ecommerce platform
+              🛒. Through hands-on experience, I gained expertise in React ⚛️,
+              Node.js 🐿️, Express.js 🚆, and MongoDB 🐙, developing dynamic and
+              user-friendly web solutions in a professional software development
+              environment 💻.
             </p>
           </div>
         </div>
@@ -142,11 +143,12 @@ const Experience = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              As a Fiverr freelancer, I excelled in Excel VBA, completing
-              diverse tasks for multiple clients. With expertise in automation
-              and data manipulation, I delivered efficient and tailored
-              solutions, consistently exceeding expectations. Positive feedback
-              attests to my strong Excel VBA skills and professionalism.
+              As a Fiver freelancer 👩‍💻, I excelled in Excel VBA 📈, completing
+              diverse tasks 📃 for multiple clients 👥. With expertise in
+              automation 🤖 and data manipulation 📊, I delivered efficient and
+              tailored solutions, consistently exceeding expectations 💯.
+              Positive feedback 👏 attests to my strong Excel VBA skills 🖨 and
+              professionalism 🎩.
             </p>
           </div>
         </div>
