@@ -41,7 +41,7 @@ const Education = () => {
               - Sanpada College of Commerce & Technology
             </h1>
             <p>
-              September 2020 to Present{" "}
+              September 2020 to May 2023
               <span className="text-secondary">( Sanpada, Navi Mumbai )</span>
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
