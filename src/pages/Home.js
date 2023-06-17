@@ -76,10 +76,10 @@ const Home = () => {
             <h1 className="text-center mb-4">Languages</h1>
             <div className="row">
               <div className="col">
-                <div className="card mb-3">
+                <div className="card mb-3" data-aos="zoom-in">
                   <div className="row g-0">
                     <div className="col-md-8">
-                      <div className="card-body" data-aos="zoom-in">
+                      <div className="card-body">
                         <h5 className="card-title">English</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
@@ -94,10 +94,10 @@ const Home = () => {
             </div>
             <div className="row">
               <div className="col">
-                <div className="card mb-3">
+                <div className="card mb-3" data-aos="zoom-in">
                   <div className="row g-0">
                     <div className="col-md-8">
-                      <div className="card-body" data-aos="zoom-in">
+                      <div className="card-body">
                         <h5 className="card-title">Hindi</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
@@ -110,10 +110,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="col">
-                <div className="card mb-3">
+                <div className="card mb-3" data-aos="zoom-in">
                   <div className="row g-0">
                     <div className="col-md-8">
-                      <div className="card-body" data-aos="zoom-in">
+                      <div className="card-body">
                         <h5 className="card-title">Marathi</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
