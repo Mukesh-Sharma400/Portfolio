@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import skills from "../assets/skills.svg";
 import mongodb from "../assets/mongodb.png";
 import expressjs from "../assets/expressjs.png";
@@ -49,12 +51,16 @@ const Skills = () => {
     { id: "08", image: excelvba, title: "EXCEL VBA", alt: "excelvba" },
   ];
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <Resume />
       <div className="pt-5 mt-5 container container-fluid">
         <div className="row flex-lg-row-reverse align-items-center justify-content-center g-3">
-          <div className="col-10 col-sm-8 col-lg-5">
+          <div className="col-10 col-sm-8 col-lg-5" data-aos="fade-right">
             <img
               src={skills}
               className="d-block mx-lg-auto img-fluid"
@@ -63,7 +69,7 @@ const Skills = () => {
             />
           </div>
           <div className="col-lg-7">
-            <h1 className="display-5 fw-bold lh-1 mb-4">
+            <h1 className="display-5 fw-bold lh-1 mb-4" data-aos="fade-up">
               I ✨Create✨ Responsive 💻and 🏢Modern 🌎Websites✨!
             </h1>
             <p className="lead big--para">
@@ -80,7 +86,7 @@ const Skills = () => {
           <h2 className="pb-2 border-bottom">Tech Stack</h2>
           <div className="row align-items-md-center py-5 g-4">
             <div className="col-md-4 d-md-block">
-              <div className="row row-cols-2 g-4">
+              <div className="row row-cols-2 g-4" data-aos="fade-left">
                 <div className="col d-flex flex-column gap-2 align-items-center">
                   <div className="d-inline-flex align-items-center rounded-3">
                     <img src={mongodb} alt="mongodb" />
@@ -108,7 +114,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-md-8 col-sm-12">
-              <h3 className="fw-bold">
+              <h3 className="fw-bold" data-aos="fade-right">
                 What is <span className="mongo">M</span>
                 <span className="express">E</span>
                 <span className="react">R</span>
@@ -154,7 +160,10 @@ const Skills = () => {
           </div>
         </div>
         <h2 className="pb-2 border-bottom">Web Languages</h2>
-        <div className="d-flex flex-wrap m-auto justify-content-between py-5">
+        <div
+          className="d-flex flex-wrap m-auto justify-content-between py-5"
+          data-aos="fade-up"
+        >
           {weblanguages.map((language) => (
             <div
               className="card shadow-sm mb-4 languages"
@@ -175,7 +184,10 @@ const Skills = () => {
           ))}
         </div>
         <h2 className="pb-2 border-bottom">Programming Languages</h2>
-        <div className="d-flex flex-wrap m-auto justify-content-between py-5">
+        <div
+          className="d-flex flex-wrap m-auto justify-content-between py-5"
+          data-aos="fade-up"
+        >
           {proglanguages.map((language) => (
             <div
               className="card shadow-sm mb-4 languages"

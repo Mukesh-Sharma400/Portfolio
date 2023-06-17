@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import alikarim from "../assets/alikarim.jfif";
 import nitin from "../assets/nitin.jpg";
 import Resume from "../components/Resume";
@@ -54,6 +56,10 @@ const Testimonials = () => {
     },
   ];
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="pt-5 mt-5 container container-fluid">
       <Resume />
@@ -64,11 +70,12 @@ const Testimonials = () => {
               src={alikarim}
               className="img-fluid rounded-circle m-auto"
               alt="alikarim"
+              data-aos="fade-left"
             />
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title fs-2">
+              <h5 className="card-title fs-2" data-aos="fade-up">
                 Ali Karim Sayed
                 <a
                   href="https://www.linkedin.com/in/alikarim007"
@@ -91,7 +98,10 @@ const Testimonials = () => {
                 learning were evident in their consistent progress and the
                 quality of their work.
               </p>
-              <p className="card-text text-body-secondary fs-5">
+              <p
+                className="card-text text-body-secondary fs-5"
+                data-aos="fade-down"
+              >
                 - Posted on 27 May 2023
               </p>
             </div>
@@ -105,11 +115,12 @@ const Testimonials = () => {
               src={nitin}
               className="img-fluid rounded-circle m-auto"
               alt="nitin"
+              data-aos="fade-left"
             />
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title fs-2">
+              <h5 className="card-title fs-2" data-aos="fade-up">
                 Nitin Prajapati
                 <a
                   href="https://www.linkedin.com/in/nitin-prajapati1"
@@ -127,7 +138,10 @@ const Testimonials = () => {
                 makes sure that everyone is on the same page and focused on the
                 main goal.
               </p>
-              <p className="card-text text-body-secondary fs-5">
+              <p
+                className="card-text text-body-secondary fs-5"
+                data-aos="fade-down"
+              >
                 - Posted on 11 May 2023
               </p>
             </div>
@@ -137,7 +151,7 @@ const Testimonials = () => {
       <div className="row row-cols-1 row-cols-md-2 g-4 mb-5">
         {testimonials.map((testimonials) => (
           <div className="col" key={testimonials.id}>
-            <div className="card h-100">
+            <div className="card h-100" data-aos="fade-up">
               <div className="card-body">
                 <h5 className="card-title fs-3">
                   <i className="bi bi-person-circle"></i> {testimonials.name}

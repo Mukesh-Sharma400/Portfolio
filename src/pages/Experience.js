@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import nullclass from "../assets/nullclass.png";
 import hasbasoft from "../assets/hasbasoft.png";
 import fiver from "../assets/fiver.png";
@@ -68,6 +70,10 @@ const Experience = () => {
     },
   ];
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <Resume />
@@ -79,10 +85,13 @@ const Experience = () => {
               className="d-block mx-lg-auto img-fluid"
               alt="nullclass"
               loading="lazy"
+              data-aos="fade-right"
             />
           </div>
           <div className="col-md-8 col-sm-12">
-            <h1 className="display-4 fw-bold">Project Intern</h1>
+            <h1 className="display-4 fw-bold" data-aos="fade-up">
+              Project Intern
+            </h1>
             <h1 className="fw-light">- NullClass</h1>
             <p>
               December 2022 to January 2023{" "}
@@ -105,10 +114,13 @@ const Experience = () => {
               className="d-block mx-lg-auto img-fluid"
               alt="hasbasoft"
               loading="lazy"
+              data-aos="fade-left"
             />
           </div>
           <div className="col-md-8 col-sm-12">
-            <h1 className="display-4 fw-bold">MERN Stack Software Trainee</h1>
+            <h1 className="display-4 fw-bold" data-aos="fade-right">
+              MERN Stack Software Trainee
+            </h1>
             <h1 className="fw-light">- Hasbasoft Technology Pvt Ltd</h1>
             <p>
               August 2021 to October 2022{" "}
@@ -132,10 +144,13 @@ const Experience = () => {
               className="d-block mx-lg-auto img-fluid"
               alt="fiver"
               loading="lazy"
+              data-aos="fade-right"
             />
           </div>
           <div className="col-md-8 col-sm-12">
-            <h1 className="display-4 fw-bold">Freelancer</h1>
+            <h1 className="display-4 fw-bold" data-aos="fade-left">
+              Freelancer
+            </h1>
             <h1 className="fw-light">- Fiver</h1>
             <p>
               May 2018 to September 2020{" "}
@@ -158,7 +173,7 @@ const Experience = () => {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5">
           {certificates.map((certificate) => (
             <div className="col" key={certificate.id}>
-              <div className="card shadow h-100 rounded-3">
+              <div className="card shadow h-100 rounded-3" data-aos="zoom-in">
                 <div className="card-header">
                   <h4 className="text-center">{certificate.title}</h4>
                 </div>

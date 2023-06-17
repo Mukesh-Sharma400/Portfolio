@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import ecommerce from "../assets/E-Commerce Web App - Thumbnail.jpg";
 import primevideo from "../assets/Prime Video Clone - Mark 2 -  Tumbnail.jpg";
 import netflix from "../assets/Netflix Clone - Mark 2 - Thumbnail.jpg";
@@ -64,6 +66,10 @@ const Projects = () => {
     },
   ];
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <Resume />
@@ -71,7 +77,10 @@ const Projects = () => {
         <h2 className="pb-2 border-bottom">Top Applications</h2>
         <div className="row row-cols-1 mb-5">
           <div className="col">
-            <div className="card shadow h-100 rounded-3 top--project mx-auto">
+            <div
+              className="card shadow h-100 rounded-3 top--project mx-auto"
+              data-aos="zoom-in"
+            >
               <div className="card-header">
                 <h4 className="text-center">SocialNetwork</h4>
               </div>
@@ -109,7 +118,7 @@ const Projects = () => {
         </div>
         <div className="row row-cols-1 row-cols-md-2 g-3 mb-5">
           {topProjects.map((project) => (
-            <div className="col" key={project.id}>
+            <div className="col" key={project.id} data-aos="zoom-in">
               <div className="card shadow h-100 rounded-3">
                 <div className="card-header">
                   <h4 className="text-center">{project.title}</h4>
@@ -142,7 +151,7 @@ const Projects = () => {
         <h2 className="pb-2 border-bottom">Older Projects</h2>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-5 pb-4">
           {olderProjects.map((project) => (
-            <div className="col" key={project.id}>
+            <div className="col" key={project.id} data-aos="zoom-in">
               <div className="card shadow h-100 rounded-3">
                 <div className="card-header">
                   <h4 className="text-center">{project.title}</h4>

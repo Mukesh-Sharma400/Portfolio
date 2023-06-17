@@ -1,4 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
@@ -35,18 +37,25 @@ const Contact = () => {
       );
   };
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <Resume />
       <div className="pt-5 mt-5 container container-fluid col-xxl-8">
         <div className="row align-items-center justify-content-center g-3 mt-3">
           <div className="col-10 col-sm-8 col-lg-6 mb-4">
-            <h1 className="text-center mb-5 pb-4">Contact Me</h1>
+            <h1 className="text-center mb-5 pb-4" data-aos="fade-up">
+              Contact Me
+            </h1>
             <img
               src={contact}
               className="d-block mx-lg-auto img-fluid"
               alt="contact"
               loading="lazy"
+              data-aos="fade-left"
             />
           </div>
           <div className="col-lg-6 m-auto mb-4">
@@ -97,10 +106,17 @@ const Contact = () => {
         <div className="py-5">
           <div className="row g-4 align-items-center">
             <div className="col-md">
-              <img className="img-fluid rounded-5 shadow" src={map} alt="map" />
+              <img
+                className="img-fluid rounded-5 shadow"
+                src={map}
+                alt="map"
+                data-aos="fade-left"
+              />
             </div>
             <div className="col-md">
-              <h1 className="text-center mb-4">Social Info</h1>
+              <h1 className="text-center mb-4" data-aos="fade-up">
+                Social Info
+              </h1>
               <ul className="list-group list-group-flush lead">
                 <li className="list-group-item">
                   <a

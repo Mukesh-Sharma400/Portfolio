@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import mern from "../assets/mern.png";
 import maukes from "../assets/maukes.png";
 import Resume from "../components/Resume";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <Resume />
@@ -14,6 +20,7 @@ const Home = () => {
           alt="mern"
           width="150"
           height="150"
+          data-aos="fade-down"
         />
         <h1 className="display-4 fw-bold text-uppercase text-secondary code">
           {"< "}
@@ -24,7 +31,7 @@ const Home = () => {
           <span> STACK DEVELOPER</span>
           {" />"}
         </h1>
-        <div className="col-lg-8 mx-auto">
+        <div className="col-lg-8 mx-auto" data-aos="fade-up">
           <p className="lead">
             Solution-driven 🚀 MERN-Stack 💯 Developer 👨‍💻 with over a year of
             work experience building consumer-focused online products and
@@ -33,7 +40,7 @@ const Home = () => {
           </p>
         </div>
         <div className="row align-items-md-center py-5 g-4">
-          <div className="col-md-4 d-md-block">
+          <div className="col-md-4 d-md-block" data-aos="fade-left">
             <img
               src={maukes}
               className="d-block mx-lg-auto img-fluid"
@@ -42,7 +49,7 @@ const Home = () => {
             />
           </div>
           <div className="col-md-8 col-sm-12">
-            <h1 className="display-5 fw-bold lh-1 mb-3">
+            <h1 className="display-5 fw-bold lh-1 mb-3" data-aos="fade-right">
               Who is 🤔 <span className="text-danger">Mukesh</span> ? 👨‍🔧
             </h1>
             <p className="big--para">
@@ -72,7 +79,7 @@ const Home = () => {
                 <div className="card mb-3">
                   <div className="row g-0">
                     <div className="col-md-8">
-                      <div className="card-body">
+                      <div className="card-body" data-aos="zoom-in">
                         <h5 className="card-title">English</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
@@ -90,7 +97,7 @@ const Home = () => {
                 <div className="card mb-3">
                   <div className="row g-0">
                     <div className="col-md-8">
-                      <div className="card-body">
+                      <div className="card-body" data-aos="zoom-in">
                         <h5 className="card-title">Hindi</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
@@ -106,7 +113,7 @@ const Home = () => {
                 <div className="card mb-3">
                   <div className="row g-0">
                     <div className="col-md-8">
-                      <div className="card-body">
+                      <div className="card-body" data-aos="zoom-in">
                         <h5 className="card-title">Marathi</h5>
                         <p className="card-text">
                           <small className="text-body-secondary">
@@ -123,25 +130,25 @@ const Home = () => {
           <div className="col">
             <h1 className="text-center mb-4">Interests</h1>
             <div className="d-flex flex-wrap justify-content-between">
-              <div className="card mb-3 p-2">
+              <div className="card mb-3 p-2" data-aos="zoom-in">
                 <h5 className="card-title mb-0">👨🏾‍💻 Coding</h5>
               </div>
-              <div className="card mb-3 p-2">
+              <div className="card mb-3 p-2" data-aos="zoom-in">
                 <h5 className="card-title mb-0">🎧 Music</h5>
               </div>
-              <div className="card mb-3 p-2">
+              <div className="card mb-3 p-2" data-aos="zoom-in">
                 <h5 className="c mb-0">♟️ Chess</h5>
               </div>
-              <div className="card mb-3 p-2">
+              <div className="card mb-3 p-2" data-aos="zoom-in">
                 <h5 className="card-title mb-0">🏏 Cricket</h5>
               </div>
-              <div className="card mb-3 p-2">
+              <div className="card mb-3 p-2" data-aos="zoom-in">
                 <h5 className="card-title mb-0">⚽ Football</h5>
               </div>
-              <div className="card mb-3 p-2">
+              <div className="card mb-3 p-2" data-aos="zoom-in">
                 <h5 className="c mb-0">🎥 Movies</h5>
               </div>
-              <div className="card mb-3 p-2">
+              <div className="card mb-3 p-2" data-aos="zoom-in">
                 <h5 className="card-title mb-0">⭕ Carrom</h5>
               </div>
             </div>
