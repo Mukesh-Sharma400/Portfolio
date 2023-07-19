@@ -33,10 +33,10 @@ const Home = () => {
         </h1>
         <div className="col-lg-8 mx-auto" data-aos="fade-up">
           <p className="lead">
-            Solution-driven 🚀 MERN-Stack 💯 Developer 👨‍💻 with over a year of
-            work experience building consumer-focused online products and
+            Solution driven 🚀 MERN Stack 💯 Developer 👨‍💻 with over a year of
+            work experience building consumer focused online products and
             services. Designed and developed web apps 💻 across multiple APIs
-            🔌, thirdparty integrations 🤝, and databases 🗄.
+            🔌, third party integrations 🤝, and databases 🗄.
           </p>
         </div>
         <div className="row align-items-md-center py-5 g-4">

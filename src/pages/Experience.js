@@ -21,7 +21,6 @@ const Experience = () => {
       alt: "certificate_of_internship",
       description:
         "I successfully completed a MERN stack web development internship, earning a certification that demonstrates my proficiency in building dynamic web applications using MongoDB, Express.js, React.js, and Node.js.",
-      link: "https://www.linkedin.com/posts/mukesh-sharma400_certificate-of-internship-nullclass-activity-7017920222397370368-2D-V?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: "02",
@@ -30,7 +29,6 @@ const Experience = () => {
       alt: "certificate_of_training",
       description:
         "I have successfully completed a comprehensive MERN stack web development training program, acquiring in-depth knowledge and skills in MongoDB, Express.js, React, and Node.js.",
-      link: "https://www.linkedin.com/posts/mukesh-sharma400_stack-overflow-clone-certificate-activity-7013058153118363648-9Ih3?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: "03",
@@ -39,7 +37,6 @@ const Experience = () => {
       alt: "certificate_of_ecommerce",
       description:
         "I have received a certification in MERN stack web development, specializing in creating and maintaining e-commerce portal web applications with expertise in MongoDB, Express.js, React.js, and Node.js.",
-      link: "https://www.linkedin.com/posts/mukesh-sharma400_e-commerce-web-app-certificate-activity-6925358509735706624-owJ5?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: "04",
@@ -48,7 +45,6 @@ const Experience = () => {
       alt: "certificate_of_dice_game",
       description:
         "Certification obtained for advanced JavaScript-based dice game web application. Demonstrating proficiency in developing interactive and engaging gaming experiences using JavaScript and related technologies.",
-      link: "https://www.linkedin.com/posts/mukesh-sharma400_javascript-certificate-2-activity-6924316331756388352-g4RC?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: "05",
@@ -57,7 +53,6 @@ const Experience = () => {
       alt: "certificate_of_music_in_javascript",
       description:
         "Certification of music player web application in advance JavaScript. Verified proficiency in developing interactive and seamless music players, utilizing advanced JavaScript techniques for enhanced user experience.",
-      link: "https://www.linkedin.com/posts/mukesh-sharma400_javascript-certificate-1-activity-6924316178202918912-EBDg?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: "06",
@@ -66,7 +61,6 @@ const Experience = () => {
       alt: "certificate_of_netflix",
       description:
         "Certification received for creating a Netflix clone web application using HTML and CSS, demonstrating proficiency in frontend development and UI design.",
-      link: "https://www.linkedin.com/posts/mukesh-sharma400_frontend-certificate-activity-6924314403915857920-XaND?utm_source=share&utm_medium=member_desktop",
     },
   ];
 
@@ -181,17 +175,6 @@ const Experience = () => {
                 <title>{certificate.title}</title>
                 <div className="card-body">
                   <p>{certificate.description}</p>
-                </div>
-                <div className="card-footer">
-                  <a
-                    href={certificate.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button type="button" className="btn btn-outline-primary">
-                      View on LinkedIn 👀
-                    </button>
-                  </a>
                 </div>
               </div>
             </div>

@@ -103,7 +103,7 @@ const Education = () => {
               I was always 🤯 fascinated by the mysteries of the universe.
               Despite not being the smartest 🤓 student in my class, I 📚 spends
               every free moment delving into books and videos on cosmology and
-              astrophysics. 🌌🔭
+              astrophysics 🌌🔭.
             </p>
           </div>
         </div>
