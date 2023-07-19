@@ -23,16 +23,14 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           toast.success("Message Sent Successfully. Thank You for Contacting!");
           setTimeout(() => {
             navigate("/");
           }, 3000);
-          console.log("Message Sent Successfully. Thank You for Contacting!");
           e.target.reset();
         },
         (error) => {
-          console.log(error.text);
+          toast.error(error.text);
         }
       );
   };
@@ -126,7 +124,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                   >
                     <i className="bi bi-telephone-fill text-dark me-2"></i>
-                    <span className="fw-bold">Phone:</span> (+91) 70217-39604{" "}
+                    <span className="fw-bold">Phone:</span> (+91) 7021739604
                   </a>
                 </li>
                 <li className="list-group-item">
@@ -138,17 +136,6 @@ const Contact = () => {
                   >
                     <i className="bi bi-envelope-fill text-dark me-2"></i>
                     <span className="fw-bold">Gmail:</span> mksh400@gmail.com
-                  </a>
-                </li>
-                <li className="list-group-item">
-                  <a
-                    className="text-decoration-none text-black"
-                    href="https://www.linkedin.com/in/mukesh-sharma400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="bi bi-linkedin text-dark me-2"></i>
-                    <span className="fw-bold">LinkedIn:</span> mukesh-sharma400
                   </a>
                 </li>
                 <li className="list-group-item">
@@ -204,7 +191,7 @@ const Contact = () => {
                   >
                     <i className="bi bi-geo-alt-fill text-dark me-2"></i>
                     <span className="fw-bold">Address:</span> Ghansoli, Navi
-                    Mumbai{" "}
+                    Mumbai
                   </a>
                 </li>
               </ul>
