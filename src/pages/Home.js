@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import mern from "../assets/mern.png";
-import maukes from "../assets/maukes.png";
+import maukes from "../assets/new_maukes.png";
 import Resume from "../components/Resume";
 
 const Home = () => {
