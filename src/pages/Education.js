@@ -44,7 +44,7 @@ const Education = () => {
           </div>
           <div className="col-lg-7">
             <h1 className="display-4 fw-bold" data-aos="fade-up">
-              Bachelor's in IT
+              Bachelors in IT
             </h1>
             <h1 className="fw-light">
               - Sanpada College of Commerce & Technology
@@ -91,7 +91,7 @@ const Education = () => {
           </div>
           <div className="col-lg-6">
             <h1 className="display-4 fw-bold" data-aos="fade-right">
-              Higher School Certificates
+              Higher School Certification
             </h1>
             <h1 className="fw-light">- Pace Education Society</h1>
             <p>
@@ -119,7 +119,7 @@ const Education = () => {
           </div>
           <div className="col-lg-7">
             <h1 className="display-4 fw-bold" data-aos="fade-left">
-              Secondary School Certificates
+              Secondary School Certification
             </h1>
             <h1 className="fw-light">- Tilak International School</h1>
             <p>
