@@ -8,6 +8,7 @@ import memories from "../assets/Memories - Thumbnail.jpg";
 import stack from "../assets/Stack-Overflow-Clone-Thumbnail.jpg";
 import youtube from "../assets/YouTube-Clone-Thumbnail.png";
 import social from "../assets/SocialNetwork - Functionalities Mark 2 - Thumbnail.jpg";
+import dashboard from "../assets/Dashboard-Thumbnail.webp";
 import Resume from "../components/Resume";
 
 const Projects = () => {
@@ -36,11 +37,21 @@ const Projects = () => {
       id: "03",
       title: "YouTube Clone",
       thumbnail: youtube,
-      video:
-        "https://res.cloudinary.com/mksh400/video/upload/v1677522473/Portfolio/Stack-Overflow-Clone_i8ggps.mp4",
+      video: "",
       description:
         "The fully responsive YouTube Clone application built with React.js, the YouTube API, Axios, and Bootstrap aimsto replicate the core functionality and user experience of YouTube while providing a seamless and intuitiveinterface for users to discover, watch, and engage with videos.",
       link: "https://you-tube-clone-orcin.vercel.app",
+      warning: "Video Coming Soon! Please Wait.",
+    },
+    {
+      id: "04",
+      title: "Dashboard",
+      thumbnail: dashboard,
+      video: "",
+      description:
+        "Experience the ultimate MERN Stack Admin Dashboard - efficient, user-friendly, and powerful. Manage projects, visualize data with Nivo Charts, and enjoy seamless state management with Redux Toolkit. Our backend runs on Node JS, Express JS, Mongoose, and MongoDB, providing a robust foundation for your success. Take control of your data and productivity today!",
+      link: "https://dashboard-smoky-three.vercel.app",
+      danger: "This Project is Under Development! But You can View It Live.",
     },
   ];
 
@@ -128,6 +139,8 @@ const Projects = () => {
                 ></video>
                 <title>{project.title}</title>
                 <div className="card-body">
+                  <p className="text-warning m-0 p-0">{project.warning}</p>
+                  <p className="text-danger m-0 p-0">{project.danger}</p>
                   <p className="card-text">{project.description}</p>
                 </div>
                 <div className="card-footer">
