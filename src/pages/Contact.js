@@ -1,6 +1,4 @@
-import React, { useRef, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
@@ -34,10 +32,6 @@ const Contact = () => {
         }
       );
   };
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <div>

@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import alikarim from "../assets/alikarim.jfif";
 import nitin from "../assets/nitin.jpg";
 import Resume from "../components/Resume";
@@ -55,10 +53,6 @@ const Testimonials = () => {
       date: "13 May 2023",
     },
   ];
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <div className="pt-5 mt-5 container container-fluid">

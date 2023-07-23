@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import skills from "../assets/skills.svg";
 import mongodb from "../assets/mongodb.png";
 import expressjs from "../assets/expressjs.png";
 import reactjs from "../assets/reactjs.png";
 import nodejs from "../assets/nodejs.png";
+import nextjs from "../assets/nextjs.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/js.png";
@@ -37,7 +36,8 @@ const Skills = () => {
     { id: "07", image: material, title: "MATERIAL UI", alt: "material" },
     { id: "08", image: chakra, title: "CHAKRA UI", alt: "chakra" },
     { id: "09", image: laravel, title: "LARAVEL", alt: "laravel" },
-    { id: "10", image: aspnet, title: "ASP.NET", alt: "asp.net" },
+    { id: "10", image: nextjs, title: "NEXTJS", alt: "nextjs" },
+    { id: "11", image: aspnet, title: "ASP.NET", alt: "asp.net" },
   ];
 
   const proglanguages = [
@@ -50,10 +50,6 @@ const Skills = () => {
     { id: "07", image: kotlin, title: "KOTLIN", alt: "kotlin" },
     { id: "08", image: excelvba, title: "EXCEL VBA", alt: "excelvba" },
   ];
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <div>

@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+import appavengers from "../assets/AppAvengers.jpg";
 import nullclass from "../assets/nullclass.png";
 import hasbasoft from "../assets/hasbasoft.png";
 import fiver from "../assets/fiver.png";
@@ -64,14 +63,38 @@ const Experience = () => {
     },
   ];
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div>
       <Resume />
       <div className="pt-4 mt-5 container container-fluid col-xxl-8">
+        <div className="row align-items-md-center py-5 g-4 border-bottom">
+          <div className="col-md-4 d-md-block mt-0">
+            <img
+              src={appavengers}
+              className="d-block mx-lg-auto img-fluid rounded-4"
+              alt="appavengers"
+              loading="lazy"
+              data-aos="fade-left"
+            />
+          </div>
+          <div className="col-md-8 col-sm-12">
+            <h1 className="display-4 fw-bold" data-aos="fade-right">
+              MERN Stack Developer Intern
+            </h1>
+            <h1 className="fw-light">- App Avengers Technologies</h1>
+            <p>
+              July 2023 to Present{" "}
+              <span className="text-secondary">( Online )</span>
+            </p>
+            <p className="mb-0">Achievements/Tasks:</p>
+            <p className="lead big--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              amet nisi quaerat deserunt dolorem fugit, possimus aut hic,
+              consequuntur atque, officia inventore vel id perferendis labore
+              eveniet ex veritatis quo?
+            </p>
+          </div>
+        </div>
         <div className="row flex-row-reverse align-items-md-center py-5 g-4 border-bottom">
           <div className="col-md-4 d-md-block mt-0">
             <img
@@ -135,7 +158,7 @@ const Experience = () => {
           <div className="col-md-4 d-md-block mt-0">
             <img
               src={fiver}
-              className="d-block mx-lg-auto img-fluid"
+              className="d-block mx-lg-auto img-fluid rounded-4"
               alt="fiver"
               loading="lazy"
               data-aos="fade-right"

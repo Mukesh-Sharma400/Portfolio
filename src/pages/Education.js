@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import bscit from "../assets/bachelors.png";
 import aptitude from "../assets/Aptitude_Test.png";
 import brainstrom from "../assets/Brain_Storm.png";
@@ -23,10 +21,6 @@ const Education = () => {
       alt: "certificate_of_brain_storm",
     },
   ];
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <div>

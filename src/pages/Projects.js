@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import ecommerce from "../assets/E-Commerce Web App - Thumbnail.jpg";
 import primevideo from "../assets/Prime Video Clone - Mark 2 -  Tumbnail.jpg";
 import netflix from "../assets/Netflix Clone - Mark 2 - Thumbnail.jpg";
@@ -84,10 +82,6 @@ const Projects = () => {
         "Introducing our Netflix clone website! Built using HTML, CSS, and Javascript, this platform offers a seamless streaming experience. Enjoy a vast library of movies and TV shows, personalized recommendations, and user-friendly interface. Dive into the world of entertainment and binge-watch your favorite content at your convenience.",
     },
   ];
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <div>
