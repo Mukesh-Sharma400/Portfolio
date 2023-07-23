@@ -88,10 +88,10 @@ const Experience = () => {
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              amet nisi quaerat deserunt dolorem fugit, possimus aut hic,
-              consequuntur atque, officia inventore vel id perferendis labore
-              eveniet ex veritatis quo?
+              As a MERN Stack Developer Intern at App Avengers Technologies, I
+              contributing to web app development with MongoDB, Express.js,
+              React.js, and Node.js. Designing interfaces, implementing
+              features, and engaging in code reviews for continuous learning.
             </p>
           </div>
         </div>
