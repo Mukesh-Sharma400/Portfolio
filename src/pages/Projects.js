@@ -35,11 +35,11 @@ const Projects = () => {
       id: "03",
       title: "YouTube Clone",
       thumbnail: youtube,
-      video: "",
+      video:
+        "https://res.cloudinary.com/mksh400/video/upload/v1690720403/Portfolio/YouTube-Clone_f1tl2t.mp4",
       description:
         "The fully responsive YouTube Clone application built with React.js, the YouTube API, Axios, and Bootstrap aimsto replicate the core functionality and user experience of YouTube while providing a seamless and intuitiveinterface for users to discover, watch, and engage with videos.",
       link: "https://you-tube-clone-orcin.vercel.app",
-      warning: "Video Coming Soon! Please Wait.",
     },
     {
       id: "04",
