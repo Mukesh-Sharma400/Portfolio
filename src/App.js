@@ -10,7 +10,6 @@ import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -30,7 +29,6 @@ function App() {
           <Route exact path="/testimonials" element={<Testimonials />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );

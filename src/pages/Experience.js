@@ -2,7 +2,7 @@ import React from "react";
 import appavengers from "../assets/AppAvengers.jpg";
 import nullclass from "../assets/nullclass.png";
 import hasbasoft from "../assets/hasbasoft.png";
-import fiver from "../assets/fiver.png";
+// import fiver from "../assets/fiver.png";
 import netflix from "../assets/Netflix_Clone.png";
 import dice from "../assets/Dice_Game_with_JS.png";
 import music from "../assets/Music_with_JS.png";
@@ -79,19 +79,20 @@ const Experience = () => {
           </div>
           <div className="col-md-8 col-sm-12">
             <h1 className="display-4 fw-bold" data-aos="fade-right">
-              MERN Stack Developer Intern
+              Web Developer Intern
             </h1>
             <h1 className="fw-light">- App Avengers Technologies</h1>
             <p>
               July 2023 to Present{" "}
-              <span className="text-secondary">( Online )</span>
+              <span className="text-secondary">( Remote )</span>
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
-              As a MERN Stack Developer Intern at App Avengers Technologies, I
-              contributing to web app development with MongoDB, Express.js,
-              React.js, and Node.js. Designing interfaces, implementing
-              features, and engaging in code reviews for continuous learning.
+              As a Web Developer Intern at App Avengers Technologies, I'm
+              contributing to web app development with React.js, Next.js, and
+              Web3 Technologies 🚀 I'm designing interfaces 🎨, implementing
+              features ⚒️, and engaging in code reviews 🔍 for continuous
+              learning 🤓.
             </p>
           </div>
         </div>
@@ -112,7 +113,7 @@ const Experience = () => {
             <h1 className="fw-light">- NullClass</h1>
             <p>
               December 2022 to January 2023{" "}
-              <span className="text-secondary">( Online )</span>
+              <span className="text-secondary">( Remote )</span>
             </p>
             <p className="mb-0">Achievements/Tasks:</p>
             <p className="lead big--para">
@@ -154,7 +155,7 @@ const Experience = () => {
             </p>
           </div>
         </div>
-        <div className="row flex-row-reverse align-items-md-center py-5 g-4 border-bottom">
+        {/* <div className="row flex-row-reverse align-items-md-center py-5 g-4 border-bottom">
           <div className="col-md-4 d-md-block mt-0">
             <img
               src={fiver}
@@ -183,7 +184,7 @@ const Experience = () => {
               professionalism 🎩.
             </p>
           </div>
-        </div>
+        </div> */}
         <h1 className="mt-5 pb-2 text-center text-uppercase display-4 fw-bold">
           Certificates
         </h1>

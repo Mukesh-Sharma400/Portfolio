@@ -8,7 +8,7 @@ import nextjs from "../assets/nextjs.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/js.png";
-import sass from "../assets/sass.png";
+// import sass from "../assets/sass.png";
 import bootstrap from "../assets/bootstrap.png";
 import tailwind from "../assets/tailwind.png";
 import material from "../assets/material.png";
@@ -17,11 +17,11 @@ import c from "../assets/c.png";
 import cplus from "../assets/cplus.png";
 import csharp from "../assets/csharp.png";
 import python from "../assets/python.png";
-import java from "../assets/java.png";
+// import java from "../assets/java.png";
 import aspnet from "../assets/aspnet.png";
-import r from "../assets/r.png";
-import laravel from "../assets/laravel.png";
-import kotlin from "../assets/kotlin.png";
+// import r from "../assets/r.png";
+// import laravel from "../assets/laravel.png";
+// import kotlin from "../assets/kotlin.png";
 import excelvba from "../assets/excelvba.png";
 import Resume from "../components/Resume";
 
@@ -30,13 +30,13 @@ const Skills = () => {
     { id: "01", image: html, title: "HTML", alt: "html" },
     { id: "02", image: css, title: "CSS", alt: "css" },
     { id: "03", image: javascript, title: "JAVASCRIPT", alt: "javascript" },
-    { id: "04", image: sass, title: "SASS", alt: "sass" },
+    // { id: "04", image: sass, title: "SASS", alt: "sass" },
+    { id: "10", image: nextjs, title: "NEXTJS", alt: "nextjs" },
     { id: "05", image: bootstrap, title: "BOOTSTRAP CSS", alt: "bootstrap" },
     { id: "06", image: tailwind, title: "TAILWIND CSS", alt: "tailwind" },
     { id: "07", image: material, title: "MATERIAL UI", alt: "material" },
     { id: "08", image: chakra, title: "CHAKRA UI", alt: "chakra" },
-    { id: "09", image: laravel, title: "LARAVEL", alt: "laravel" },
-    { id: "10", image: nextjs, title: "NEXTJS", alt: "nextjs" },
+    // { id: "09", image: laravel, title: "LARAVEL", alt: "laravel" },
     { id: "11", image: aspnet, title: "ASP.NET", alt: "asp.net" },
   ];
 
@@ -45,9 +45,9 @@ const Skills = () => {
     { id: "02", image: cplus, title: "C++", alt: "cplus" },
     { id: "03", image: csharp, title: "C#", alt: "csharp" },
     { id: "04", image: python, title: "PYTHON", alt: "python" },
-    { id: "05", image: java, title: "JAVA", alt: "java" },
-    { id: "06", image: r, title: "R", alt: "r" },
-    { id: "07", image: kotlin, title: "KOTLIN", alt: "kotlin" },
+    // { id: "05", image: java, title: "JAVA", alt: "java" },
+    // { id: "06", image: r, title: "R", alt: "r" },
+    // { id: "07", image: kotlin, title: "KOTLIN", alt: "kotlin" },
     { id: "08", image: excelvba, title: "EXCEL VBA", alt: "excelvba" },
   ];
 

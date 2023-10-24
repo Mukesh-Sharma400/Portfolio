@@ -146,6 +146,28 @@ const Contact = () => {
                 <li className="list-group-item">
                   <a
                     className="text-decoration-none text-black"
+                    href="https://www.linkedin.com/in/mukesh-sharma-dev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bi bi-linkedin text-dark me-2"></i>
+                    <span className="fw-bold">LinkedIn:</span> mukesh-sharma-dev
+                  </a>
+                </li>
+                <li className="list-group-item">
+                  <a
+                    className="text-decoration-none text-black"
+                    href="https://twitter.com/mukesh_sharma36"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bi bi-twitter text-dark me-2"></i>
+                    <span className="fw-bold">Twitter:</span> mukesh_sharma36
+                  </a>
+                </li>
+                <li className="list-group-item">
+                  <a
+                    className="text-decoration-none text-black"
                     href="https://www.facebook.com/Mukesh400f"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -168,12 +190,12 @@ const Contact = () => {
                 <li className="list-group-item">
                   <a
                     className="text-decoration-none text-black"
-                    href="https://twitter.com/mukesh_sharma36"
+                    href="https://www.threads.net/mukesh_sharma400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="bi bi-twitter text-dark me-2"></i>
-                    <span className="fw-bold">Twitter:</span> mukesh_sharma36
+                    <i className="bi bi-threads text-dark me-2"></i>
+                    <span className="fw-bold">Threads:</span> mukesh_sharma400
                   </a>
                 </li>
                 <li className="list-group-item">

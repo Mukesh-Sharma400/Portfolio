@@ -13,7 +13,7 @@ const Projects = () => {
   const topProjects = [
     {
       id: "01",
-      title: "Memories",
+      title: "Memories Web App",
       thumbnail: memories,
       video:
         "https://res.cloudinary.com/mksh400/video/upload/v1677522816/Portfolio/Memories_jucigw.mp4",
@@ -43,7 +43,7 @@ const Projects = () => {
     },
     {
       id: "04",
-      title: "Dashboard",
+      title: "Dashboard Web App",
       thumbnail: dashboard,
       video: "",
       description:
@@ -56,7 +56,7 @@ const Projects = () => {
   const olderProjects = [
     {
       id: "01",
-      title: "E-Commerce",
+      title: "E-Commerce Web App",
       thumbnail: ecommerce,
       video:
         "https://res.cloudinary.com/mksh400/video/upload/v1677433153/Portfolio/E-Commerce_Web_App_vks4xk.mp4",
@@ -95,7 +95,7 @@ const Projects = () => {
               data-aos="zoom-in"
             >
               <div className="card-header">
-                <h4 className="text-center">SocialNetwork</h4>
+                <h4 className="text-center">SocialNetwork Web App</h4>
               </div>
               <video
                 src="https://res.cloudinary.com/mksh400/video/upload/v1677522935/Portfolio/SocialNetwork_-_Functionalities_-_Mark_2_ilzcad.mp4"

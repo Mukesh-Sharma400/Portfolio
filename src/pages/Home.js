@@ -47,19 +47,43 @@ const Home = () => {
               Who is 🤔 <span className="text-danger">Mukesh</span> ? 👨‍🔧
             </h1>
             <p className="big--para">
-              Hi, my name is Mukesh Sharma 👋 and I'm a MERN Stack Developer 💻
-              with a passion for building efficient and scalable web
-              applications 🚀. With expertise in MongoDB 🐋, Express 🚆, React
-              ⚛️, and Node.js 🐙, I specialize in developing RESTful APIs 📃,
-              integrating databases 🗃️, and implementing client-side
-              functionality using React ⚛️. I have experience with Redux 🧳,
-              Sass 💅, and Bootstrap 👖, and have worked with clients from
-              startups 💡 to large corporations 🏢, adapting to diverse teams
-              and project requirements. As a self-motivated problem solver 🤔, I
-              strive to write maintainable and reusable code 📝. I'm always
-              looking for opportunities to improve my skills and learn new
-              technologies 💡. If you're looking for a MERN Stack Developer to
-              bring your ideas to life, let's collaborate! 🤝
+              Hello, I'm Mukesh Sharma 💻, an aspiring IT professional with a
+              background in web development 🌐. Currently, I am gaining hands-on
+              experience as a Web Developer Intern at App Avengers Technologies
+              🏢. Prior to this, I had the privilege of interning as a Project
+              Intern at NullClass for two months in December 2022 to January
+              2023 📆. During the period from August 2021 to October 2022, I
+              dedicated my time to learning the ins and outs of the MERN Stack
+              🛠️, which involved working on various small projects.
+              <br />
+              <br />
+              My journey in the IT industry has been an exciting learning
+              experience 🚀. I'm enthusiastic about building web applications 🏗️
+              and honing my skills in technologies like MongoDB, Express, React,
+              and Node.js ⚙️. I aim to create efficient and user-friendly
+              applications, with a focus on RESTful APIs 🤝, database
+              integration 💾, and client-side functionality using React ⚛️. I'm
+              also familiar with popular tools such as Redux, Sass, and
+              Bootstrap 🎨.
+              <br />
+              <br />
+              While my professional journey is just beginning, I have had the
+              opportunity to collaborate with a range of clients and industries,
+              from startups to established companies 🤝. This diverse exposure
+              has allowed me to adapt to varying project requirements and work
+              effectively in diverse teams 👥.
+              <br />
+              <br />
+              I'm a self-motivated individual, continually seeking opportunities
+              to enhance my skills and explore new technologies 💡.
+              Problem-solving is a strength of mine, and I thrive when faced
+              with challenges 🧩. I strongly believe in the significance of
+              clean, maintainable, and reusable code ♻️.
+              <br />
+              <br />
+              If you're in need of an enthusiastic IT fresher with a passion for
+              web development, please feel free to get in touch. I'm always open
+              to new opportunities and collaborative ventures 🤝.
             </p>
           </div>
         </div>
